@@ -1,0 +1,3154 @@
+{
+  "spec_kind": "voucher.catalog",
+  "spec_version": "1.0",
+  "snapshot_ref": {
+    "snapshot_id": "snap_20261029T142742Z_78f120",
+    "content_hash": "e7608b1e2a6b0d43768cdbc39637b23e0bbb7292901af7935fa1d7f441a78891"
+  },
+  "generator": {
+    "mode": "WEB_RESEARCH",
+    "model": "deepseek-v4.1-flash",
+    "tool": "opencode",
+    "generated_at": "2026-10-29T13:55:32Z"
+  },
+  "tree_policy": "RESPECT_EXISTING",
+  "listings": [
+    {
+      "key": "curated",
+      "parent_key": null,
+      "kind": "SUB_CATEGORY",
+      "name_en": "Curated",
+      "name_ar": "مختارة",
+      "ar_source": "OFFICIAL",
+      "rank": 1,
+      "rationale": "Featured selection linking popular vouchers from the main categories.",
+      "confidence": "HIGH",
+      "asset_ref": "cat.curated"
+    },
+    {
+      "key": "mobile",
+      "parent_key": null,
+      "kind": "SUB_CATEGORY",
+      "name_en": "Mobile Top-up",
+      "name_ar": "تعبئة الرصيد",
+      "ar_source": "TRANSLATED",
+      "rank": 2,
+      "rationale": "Mobile top-up vouchers for Libyan network operators.",
+      "confidence": "HIGH",
+      "asset_ref": "cat.mobile"
+    },
+    {
+      "key": "internet",
+      "parent_key": null,
+      "kind": "SUB_CATEGORY",
+      "name_en": "Internet",
+      "name_ar": "الإنترنت",
+      "ar_source": "TRANSLATED",
+      "rank": 3,
+      "rationale": "Internet vouchers grouped by home, business and public hotspot use.",
+      "confidence": "HIGH",
+      "asset_ref": "cat.internet"
+    },
+    {
+      "key": "gaming",
+      "parent_key": null,
+      "kind": "SUB_CATEGORY",
+      "name_en": "Gaming",
+      "name_ar": "الألعاب",
+      "ar_source": "TRANSLATED",
+      "rank": 4,
+      "rationale": "Gaming vouchers for console wallets and in-game currency.",
+      "confidence": "HIGH",
+      "asset_ref": "cat.gaming"
+    },
+    {
+      "key": "digital",
+      "parent_key": null,
+      "kind": "SUB_CATEGORY",
+      "name_en": "Digital Services",
+      "name_ar": "الخدمات الرقمية",
+      "ar_source": "TRANSLATED",
+      "rank": 5,
+      "rationale": "Everyday digital subscriptions and online services.",
+      "confidence": "HIGH",
+      "asset_ref": "cat.digital"
+    },
+    {
+      "key": "giftcards",
+      "parent_key": null,
+      "kind": "SUB_CATEGORY",
+      "name_en": "Gift Cards",
+      "name_ar": "بطاقات الهدايا",
+      "ar_source": "TRANSLATED",
+      "rank": 6,
+      "rationale": "Prepaid digital gift cards for apps, media and stores.",
+      "confidence": "HIGH",
+      "asset_ref": "cat.giftcards"
+    },
+    {
+      "key": "internet.home",
+      "parent_key": "internet",
+      "kind": "SUB_CATEGORY",
+      "name_en": "Home Internet",
+      "name_ar": "إنترنت المنازل",
+      "ar_source": "TRANSLATED",
+      "rank": 1,
+      "rationale": "Home internet recharge and subscription cards for Libyan households.",
+      "confidence": "HIGH"
+    },
+    {
+      "key": "internet.business",
+      "parent_key": "internet",
+      "kind": "SUB_CATEGORY",
+      "name_en": "Business & Hosting",
+      "name_ar": "الأعمال والاستضافة",
+      "ar_source": "TRANSLATED",
+      "rank": 2,
+      "rationale": "Business, fixed-line, hosting and enterprise internet vouchers.",
+      "confidence": "HIGH"
+    },
+    {
+      "key": "internet.hotspot",
+      "parent_key": "internet",
+      "kind": "SUB_CATEGORY",
+      "name_en": "Hotspots & Public Wi-Fi",
+      "name_ar": "النقاط الساخنة",
+      "ar_source": "TRANSLATED",
+      "rank": 3,
+      "rationale": "Prepaid hotspot and public Wi-Fi access vouchers.",
+      "confidence": "HIGH"
+    },
+    {
+      "key": "gaming.console",
+      "parent_key": "gaming",
+      "kind": "SUB_CATEGORY",
+      "name_en": "Console Wallets",
+      "name_ar": "محافظ الأجهزة",
+      "ar_source": "TRANSLATED",
+      "rank": 1,
+      "rationale": "Store wallets used on PlayStation and Xbox consoles.",
+      "confidence": "HIGH"
+    },
+    {
+      "key": "gaming.currency",
+      "parent_key": "gaming",
+      "kind": "SUB_CATEGORY",
+      "name_en": "Game Currency",
+      "name_ar": "عملات الألعاب",
+      "ar_source": "TRANSLATED",
+      "rank": 2,
+      "rationale": "In-game currency and gaming wallet top-ups.",
+      "confidence": "HIGH"
+    },
+    {
+      "key": "mobile.libyana",
+      "parent_key": "mobile",
+      "kind": "SERVICE",
+      "service_id": 1,
+      "service_name": "Libyana",
+      "name_en": "Libyana",
+      "name_ar": "ليبيانا",
+      "ar_source": "OFFICIAL",
+      "rank": 1,
+      "rationale": "Libyan mobile operator; primary placement in Mobile Top-up.",
+      "confidence": "HIGH",
+      "dossier_ref": "d1",
+      "placement_reason": "Primary placement in Mobile Top-up; the curated entry is the secondary listing.",
+      "asset_ref": "brand.libyana"
+    },
+    {
+      "key": "mobile.almadar",
+      "parent_key": "mobile",
+      "kind": "SERVICE",
+      "service_id": 2,
+      "service_name": "Almadar",
+      "name_en": "Almadar",
+      "name_ar": "المدار الجديد",
+      "ar_source": "OFFICIAL",
+      "rank": 2,
+      "rationale": "Libyan mobile operator; primary placement in Mobile Top-up.",
+      "confidence": "HIGH",
+      "dossier_ref": "d2",
+      "placement_reason": "Primary placement in Mobile Top-up; the curated entry is the secondary listing.",
+      "asset_ref": "brand.almadar"
+    },
+    {
+      "key": "internet.business.ltt",
+      "parent_key": "internet.business",
+      "kind": "SERVICE",
+      "service_id": 3,
+      "service_name": "LTT",
+      "name_en": "LTT",
+      "name_ar": "ليبيا للاتصالات والتقنية",
+      "ar_source": "OFFICIAL",
+      "rank": 1,
+      "rationale": "National telecom and internet provider placed with business and fixed services.",
+      "confidence": "HIGH",
+      "dossier_ref": "d3",
+      "asset_ref": "brand.ltt"
+    },
+    {
+      "key": "internet.business.giga",
+      "parent_key": "internet.business",
+      "kind": "SERVICE",
+      "service_id": 5,
+      "service_name": "Giga",
+      "name_en": "Giga",
+      "name_ar": "جيجا",
+      "ar_source": "CONVENTIONAL",
+      "rank": 2,
+      "rationale": "Major private ISP with home and enterprise offerings; placed in Business & Hosting.",
+      "confidence": "HIGH",
+      "dossier_ref": "d5",
+      "placement_reason": "Primary placement in Business & Hosting; the curated entry is the secondary listing.",
+      "asset_ref": "brand.giga"
+    },
+    {
+      "key": "internet.business.connect",
+      "parent_key": "internet.business",
+      "kind": "SERVICE",
+      "service_id": 13,
+      "service_name": "Connect",
+      "name_en": "Connect",
+      "name_ar": "كونكت",
+      "ar_source": "OFFICIAL",
+      "rank": 3,
+      "rationale": "ISP with home, business and dedicated services; placed in Business & Hosting.",
+      "confidence": "HIGH",
+      "dossier_ref": "d13"
+    },
+    {
+      "key": "internet.business.libyatech",
+      "parent_key": "internet.business",
+      "kind": "SERVICE",
+      "service_id": 27,
+      "service_name": "Libyatech",
+      "name_en": "Libyatech",
+      "name_ar": "ليبيا تك",
+      "ar_source": "OFFICIAL",
+      "rank": 4,
+      "rationale": "Libyan ISP with fibre and business services; placed in Business & Hosting.",
+      "confidence": "HIGH",
+      "dossier_ref": "d27",
+      "asset_ref": "brand.libyatech"
+    },
+    {
+      "key": "internet.business.aljuman",
+      "parent_key": "internet.business",
+      "kind": "SERVICE",
+      "service_id": 25,
+      "service_name": "Aljuman",
+      "name_en": "Aljuman",
+      "name_ar": "الجمان الجديد",
+      "ar_source": "OFFICIAL",
+      "rank": 5,
+      "rationale": "Benghazi-based ISP placed in Business & Hosting for its business offering.",
+      "confidence": "HIGH",
+      "dossier_ref": "d25",
+      "asset_ref": "brand.aljuman"
+    },
+    {
+      "key": "internet.business.alkafaa",
+      "parent_key": "internet.business",
+      "kind": "SERVICE",
+      "service_id": 7,
+      "service_name": "Alkafaa",
+      "name_en": "Alkafaa",
+      "name_ar": "الكفاءة المتقدمة",
+      "ar_source": "OFFICIAL",
+      "rank": 6,
+      "rationale": "Libyan ISP with home and business plans; placed in Business & Hosting.",
+      "confidence": "HIGH",
+      "dossier_ref": "d7",
+      "asset_ref": "brand.alkafaa"
+    },
+    {
+      "key": "internet.business.hatif",
+      "parent_key": "internet.business",
+      "kind": "SERVICE",
+      "service_id": 4,
+      "service_name": "Hatif Libya",
+      "name_en": "Hatif Libya",
+      "name_ar": "هاتف ليبيا",
+      "ar_source": "OFFICIAL",
+      "rank": 7,
+      "rationale": "Fixed-line telecom provider placed with business and fixed services.",
+      "confidence": "HIGH",
+      "dossier_ref": "d4",
+      "asset_ref": "brand.hatif"
+    },
+    {
+      "key": "internet.business.ozon",
+      "parent_key": "internet.business",
+      "kind": "SERVICE",
+      "service_id": 31,
+      "service_name": "Ozon",
+      "name_en": "Ozon",
+      "name_ar": "أوزون الجديد",
+      "ar_source": "OFFICIAL",
+      "rank": 8,
+      "rationale": "Tripoli home internet provider placed in Business & Hosting for its leased-line offering.",
+      "confidence": "HIGH",
+      "dossier_ref": "d31",
+      "asset_ref": "brand.ozon"
+    },
+    {
+      "key": "internet.business.alborj-subscription",
+      "parent_key": "internet.business",
+      "kind": "SERVICE",
+      "service_id": 17,
+      "service_name": "Alborj Telecom - Subscription",
+      "name_en": "Alborj Telecom - Subscription",
+      "name_ar": "البرج للاتصالات - اشتراك",
+      "ar_source": "TRANSLATED",
+      "rank": 9,
+      "rationale": "Subscription variant of Alborj Telecom placed with business services.",
+      "confidence": "HIGH",
+      "dossier_ref": "d17",
+      "asset_ref": "brand.alborj"
+    },
+    {
+      "key": "internet.business.libyan-spider",
+      "parent_key": "internet.business",
+      "kind": "SERVICE",
+      "service_id": 22,
+      "service_name": "Libyan Spider",
+      "name_en": "Libyan Spider",
+      "name_ar": "ليبيا سبايدر",
+      "ar_source": "TRANSLITERATED",
+      "rank": 10,
+      "rationale": "Libyan hosting and web services company placed in Business & Hosting.",
+      "confidence": "HIGH",
+      "dossier_ref": "d22",
+      "asset_ref": "brand.libyan-spider"
+    },
+    {
+      "key": "internet.business.sadeem",
+      "parent_key": "internet.business",
+      "kind": "SERVICE",
+      "service_id": 24,
+      "service_name": "Sadeem",
+      "name_en": "Sadeem",
+      "name_ar": "السديم",
+      "ar_source": "CONVENTIONAL",
+      "rank": 11,
+      "rationale": "Libyan communications and IT provider placed in Business & Hosting.",
+      "confidence": "MEDIUM",
+      "dossier_ref": "d24",
+      "asset_ref": "brand.sadeem"
+    },
+    {
+      "key": "internet.home.smart-net",
+      "parent_key": "internet.home",
+      "kind": "SERVICE",
+      "service_id": 10,
+      "service_name": "Smart Net",
+      "name_en": "Smart Net",
+      "name_ar": "الشبكة الذكية",
+      "ar_source": "OFFICIAL",
+      "rank": 1,
+      "rationale": "Wireless ISP placed in Home Internet for household recharge vouchers.",
+      "confidence": "HIGH",
+      "dossier_ref": "d10",
+      "asset_ref": "brand.smart-net"
+    },
+    {
+      "key": "internet.home.dlconet",
+      "parent_key": "internet.home",
+      "kind": "SERVICE",
+      "service_id": 8,
+      "service_name": "Dlconet",
+      "name_en": "Dlconet",
+      "name_ar": "دلكونت",
+      "ar_source": "OFFICIAL",
+      "rank": 2,
+      "rationale": "Home internet and hotspot provider; primary placement in Home Internet.",
+      "confidence": "HIGH",
+      "dossier_ref": "d8",
+      "placement_reason": "Primary placement in Home Internet; the hotspot entry is the secondary listing.",
+      "asset_ref": "brand.dlconet"
+    },
+    {
+      "key": "internet.home.riyada",
+      "parent_key": "internet.home",
+      "kind": "SERVICE",
+      "service_id": 6,
+      "service_name": "Riyada",
+      "name_en": "Riyada",
+      "name_ar": "الريادة",
+      "ar_source": "OFFICIAL",
+      "rank": 3,
+      "rationale": "Libyan ISP placed in Home Internet for household recharge vouchers.",
+      "confidence": "HIGH",
+      "dossier_ref": "d6",
+      "asset_ref": "brand.riyada"
+    },
+    {
+      "key": "internet.home.digital-pulse",
+      "parent_key": "internet.home",
+      "kind": "SERVICE",
+      "service_id": 9,
+      "service_name": "Digital Pulse",
+      "name_en": "Digital Pulse",
+      "name_ar": "النبضة الرقمية",
+      "ar_source": "OFFICIAL",
+      "rank": 4,
+      "rationale": "Libyan ISP placed in Home Internet for household internet vouchers.",
+      "confidence": "HIGH",
+      "dossier_ref": "d9",
+      "asset_ref": "brand.digital-pulse"
+    },
+    {
+      "key": "internet.home.qurina",
+      "parent_key": "internet.home",
+      "kind": "SERVICE",
+      "service_id": 14,
+      "service_name": "Qurina",
+      "name_en": "Qurina",
+      "name_ar": "قورينا نت",
+      "ar_source": "OFFICIAL",
+      "rank": 5,
+      "rationale": "Libyan ISP placed in Home Internet for household recharge vouchers.",
+      "confidence": "HIGH",
+      "dossier_ref": "d14",
+      "asset_ref": "brand.qurina"
+    },
+    {
+      "key": "internet.home.oxygen",
+      "parent_key": "internet.home",
+      "kind": "SERVICE",
+      "service_id": 21,
+      "service_name": "Oxygen",
+      "name_en": "Oxygen",
+      "name_ar": "أكسجين",
+      "ar_source": "OFFICIAL",
+      "rank": 6,
+      "rationale": "Libyan ISP placed in Home Internet for household recharge vouchers.",
+      "confidence": "HIGH",
+      "dossier_ref": "d21",
+      "asset_ref": "brand.oxygen"
+    },
+    {
+      "key": "internet.home.sky-net",
+      "parent_key": "internet.home",
+      "kind": "SERVICE",
+      "service_id": 12,
+      "service_name": "Sky Net",
+      "name_en": "Sky Net",
+      "name_ar": "سكاي نت",
+      "ar_source": "CONVENTIONAL",
+      "rank": 7,
+      "rationale": "Libyan internet provider placed in Home Internet.",
+      "confidence": "HIGH",
+      "dossier_ref": "d12"
+    },
+    {
+      "key": "internet.home.zajil",
+      "parent_key": "internet.home",
+      "kind": "SERVICE",
+      "service_id": 11,
+      "service_name": "Zajil Libya",
+      "name_en": "Zajil Libya",
+      "name_ar": "زاجل ليبيا",
+      "ar_source": "OFFICIAL",
+      "rank": 8,
+      "rationale": "Libyan ISP placed in Home Internet for subscription top-ups.",
+      "confidence": "HIGH",
+      "dossier_ref": "d11",
+      "asset_ref": "brand.zajil"
+    },
+    {
+      "key": "internet.home.smart-wave",
+      "parent_key": "internet.home",
+      "kind": "SERVICE",
+      "service_id": 28,
+      "service_name": "smart wave",
+      "name_en": "smart wave",
+      "name_ar": "الموجة الذكية",
+      "ar_source": "OFFICIAL",
+      "rank": 9,
+      "rationale": "Libyan home internet provider placed in Home Internet.",
+      "confidence": "HIGH",
+      "dossier_ref": "d28",
+      "asset_ref": "brand.smart-wave"
+    },
+    {
+      "key": "internet.home.ds-net",
+      "parent_key": "internet.home",
+      "kind": "SERVICE",
+      "service_id": 30,
+      "service_name": "DS net",
+      "name_en": "DS net",
+      "name_ar": "دي إس نت",
+      "ar_source": "TRANSLITERATED",
+      "rank": 10,
+      "rationale": "Tripoli-based internet and IT provider placed in Home Internet.",
+      "confidence": "HIGH",
+      "dossier_ref": "d30",
+      "asset_ref": "brand.ds-net"
+    },
+    {
+      "key": "internet.home.alofoq",
+      "parent_key": "internet.home",
+      "kind": "SERVICE",
+      "service_id": 33,
+      "service_name": "Alofoq",
+      "name_en": "Alofoq",
+      "name_ar": "الأفق الرقمي",
+      "ar_source": "OFFICIAL",
+      "rank": 11,
+      "rationale": "Benghazi-based internet provider placed in Home Internet.",
+      "confidence": "HIGH",
+      "dossier_ref": "d33",
+      "asset_ref": "brand.alofoq"
+    },
+    {
+      "key": "internet.home.alhadata",
+      "parent_key": "internet.home",
+      "kind": "SERVICE",
+      "service_id": 29,
+      "service_name": "ALHADATA",
+      "name_en": "ALHADATA",
+      "name_ar": "الحداثة الدولية",
+      "ar_source": "OFFICIAL",
+      "rank": 12,
+      "rationale": "Libyan telecom and internet provider placed in Home Internet.",
+      "confidence": "MEDIUM",
+      "dossier_ref": "d29"
+    },
+    {
+      "key": "internet.home.alborj-recharge",
+      "parent_key": "internet.home",
+      "kind": "SERVICE",
+      "service_id": 18,
+      "service_name": "Alborj Telecom - Recharge",
+      "name_en": "Alborj Telecom - Recharge",
+      "name_ar": "البرج للاتصالات - تعبئة",
+      "ar_source": "TRANSLATED",
+      "rank": 13,
+      "rationale": "Recharge variant of Alborj Telecom placed in Home Internet.",
+      "confidence": "HIGH",
+      "dossier_ref": "d18",
+      "asset_ref": "brand.alborj"
+    },
+    {
+      "key": "internet.home.libya-soft-home",
+      "parent_key": "internet.home",
+      "kind": "SERVICE",
+      "service_id": 15,
+      "service_name": "Libya Soft Home",
+      "name_en": "Libya Soft Home",
+      "name_ar": "ليبيا سوفت هوم",
+      "ar_source": "TRANSLITERATED",
+      "rank": 14,
+      "rationale": "Libya Soft home internet voucher placed in Home Internet.",
+      "confidence": "HIGH",
+      "dossier_ref": "d15",
+      "asset_ref": "brand.libya-soft"
+    },
+    {
+      "key": "internet.home.qnet",
+      "parent_key": "internet.home",
+      "kind": "SERVICE",
+      "service_id": 26,
+      "service_name": "Qnet",
+      "name_en": "Qnet",
+      "name_ar": "كيو نت",
+      "ar_source": "TRANSLITERATED",
+      "rank": 15,
+      "rationale": "Benghazi-based ISP placed in Home Internet for household vouchers.",
+      "confidence": "HIGH",
+      "dossier_ref": "d26"
+    },
+    {
+      "key": "internet.hotspot.libya-soft-hotspot",
+      "parent_key": "internet.hotspot",
+      "kind": "SERVICE",
+      "service_id": 16,
+      "service_name": "Libya Soft HotSpot",
+      "name_en": "Libya Soft HotSpot",
+      "name_ar": "ليبيا سوفت هوت سبوت",
+      "ar_source": "TRANSLITERATED",
+      "rank": 1,
+      "rationale": "Libya Soft hotspot voucher placed in Hotspots & Public Wi-Fi.",
+      "confidence": "HIGH",
+      "dossier_ref": "d16",
+      "asset_ref": "brand.libya-soft"
+    },
+    {
+      "key": "internet.hotspot.dlconet",
+      "parent_key": "internet.hotspot",
+      "kind": "SERVICE",
+      "service_id": 8,
+      "service_name": "Dlconet",
+      "name_en": "Dlconet",
+      "name_ar": "دلكونت",
+      "ar_source": "OFFICIAL",
+      "rank": 2,
+      "rationale": "Also offers Wi-Go hotspot vouchers; secondary placement.",
+      "confidence": "HIGH",
+      "dossier_ref": "d8",
+      "placement_reason": "Primary listing is Home Internet; this entry reflects its separate Wi-Go hotspot voucher line.",
+      "asset_ref": "brand.dlconet"
+    },
+    {
+      "key": "gaming.console.psn",
+      "parent_key": "gaming.console",
+      "kind": "SERVICE",
+      "service_id": 40,
+      "service_name": "PSN",
+      "name_en": "PSN",
+      "name_ar": "بلايستيشن",
+      "ar_source": "CONVENTIONAL",
+      "rank": 1,
+      "rationale": "PlayStation store wallet placed in Console Wallets.",
+      "confidence": "HIGH",
+      "dossier_ref": "d40",
+      "placement_reason": "Primary placement in Console Wallets; the gift-card entry is the secondary listing.",
+      "asset_ref": "brand.psn"
+    },
+    {
+      "key": "gaming.console.xbox",
+      "parent_key": "gaming.console",
+      "kind": "SERVICE",
+      "service_id": 39,
+      "service_name": "XBOX",
+      "name_en": "XBOX",
+      "name_ar": "إكس بوكس",
+      "ar_source": "TRANSLITERATED",
+      "rank": 2,
+      "rationale": "Xbox store wallet placed in Console Wallets.",
+      "confidence": "HIGH",
+      "dossier_ref": "d39",
+      "placement_reason": "Primary placement in Console Wallets; the gift-card entry is the secondary listing.",
+      "asset_ref": "brand.xbox"
+    },
+    {
+      "key": "gaming.currency.pubg",
+      "parent_key": "gaming.currency",
+      "kind": "SERVICE",
+      "service_id": 37,
+      "service_name": "PUBG",
+      "name_en": "PUBG",
+      "name_ar": "ببجي موبايل",
+      "ar_source": "CONVENTIONAL",
+      "rank": 1,
+      "rationale": "PUBG Mobile currency voucher placed in Game Currency.",
+      "confidence": "HIGH",
+      "dossier_ref": "d37",
+      "placement_reason": "Primary placement in Game Currency; the curated entry is the secondary listing.",
+      "asset_ref": "brand.pubg"
+    },
+    {
+      "key": "gaming.currency.razer-gold",
+      "parent_key": "gaming.currency",
+      "kind": "SERVICE",
+      "service_id": 36,
+      "service_name": "RAZER GOLD",
+      "name_en": "RAZER GOLD",
+      "name_ar": "ريزر جولد",
+      "ar_source": "TRANSLITERATED",
+      "rank": 2,
+      "rationale": "Razer gaming currency voucher placed in Game Currency.",
+      "confidence": "HIGH",
+      "dossier_ref": "d36",
+      "asset_ref": "brand.razer-gold"
+    },
+    {
+      "key": "digital.bein-sport",
+      "parent_key": "digital",
+      "kind": "SERVICE",
+      "service_id": 38,
+      "service_name": "beIN Sport",
+      "name_en": "beIN Sport",
+      "name_ar": "بي إن سبورت",
+      "ar_source": "OFFICIAL",
+      "rank": 1,
+      "rationale": "beIN sports subscription placed in Digital Services.",
+      "confidence": "HIGH",
+      "dossier_ref": "d38",
+      "placement_reason": "Primary placement in Digital Services; the curated entry is the secondary listing.",
+      "asset_ref": "brand.bein"
+    },
+    {
+      "key": "digital.academia",
+      "parent_key": "digital",
+      "kind": "SERVICE",
+      "service_id": 32,
+      "service_name": "Academia",
+      "name_en": "Academia",
+      "name_ar": "أكاديميا",
+      "ar_source": "TRANSLITERATED",
+      "rank": 2,
+      "rationale": "Libyan e-learning platform placed in Digital Services.",
+      "confidence": "HIGH",
+      "dossier_ref": "d32",
+      "placement_reason": "Primary placement in Digital Services; the curated entry is the secondary listing.",
+      "asset_ref": "brand.academia"
+    },
+    {
+      "key": "digital.ishrahli",
+      "parent_key": "digital",
+      "kind": "SERVICE",
+      "service_id": 23,
+      "service_name": "Ishrahli",
+      "name_en": "Ishrahli",
+      "name_ar": "اشرحلي",
+      "ar_source": "OFFICIAL",
+      "rank": 3,
+      "rationale": "Libyan e-learning platform placed in Digital Services.",
+      "confidence": "HIGH",
+      "dossier_ref": "d23",
+      "asset_ref": "brand.ishrahli"
+    },
+    {
+      "key": "digital.speetar",
+      "parent_key": "digital",
+      "kind": "SERVICE",
+      "service_id": 34,
+      "service_name": "Speetar",
+      "name_en": "Speetar",
+      "name_ar": "سبيتار",
+      "ar_source": "OFFICIAL",
+      "rank": 4,
+      "rationale": "Libyan telemedicine platform placed in Digital Services.",
+      "confidence": "HIGH",
+      "dossier_ref": "d34",
+      "asset_ref": "brand.speetar"
+    },
+    {
+      "key": "giftcards.itunes",
+      "parent_key": "giftcards",
+      "kind": "SERVICE",
+      "service_id": 35,
+      "service_name": "ITunes",
+      "name_en": "ITunes",
+      "name_ar": "آي تيونز",
+      "ar_source": "CONVENTIONAL",
+      "rank": 1,
+      "rationale": "Apple digital store gift card placed in Gift Cards.",
+      "confidence": "HIGH",
+      "dossier_ref": "d35",
+      "placement_reason": "Primary placement in Gift Cards; the curated entry is the secondary listing.",
+      "asset_ref": "brand.itunes"
+    },
+    {
+      "key": "giftcards.psn",
+      "parent_key": "giftcards",
+      "kind": "SERVICE",
+      "service_id": 40,
+      "service_name": "PSN",
+      "name_en": "PSN",
+      "name_ar": "بلايستيشن",
+      "ar_source": "CONVENTIONAL",
+      "rank": 2,
+      "rationale": "PlayStation store wallet also sold as a digital gift card.",
+      "confidence": "HIGH",
+      "dossier_ref": "d40",
+      "placement_reason": "Primary listing is Console Wallets; this entry reflects its use as a gift card.",
+      "asset_ref": "brand.psn"
+    },
+    {
+      "key": "giftcards.xbox",
+      "parent_key": "giftcards",
+      "kind": "SERVICE",
+      "service_id": 39,
+      "service_name": "XBOX",
+      "name_en": "XBOX",
+      "name_ar": "إكس بوكس",
+      "ar_source": "TRANSLITERATED",
+      "rank": 3,
+      "rationale": "Xbox store wallet also sold as a digital gift card.",
+      "confidence": "HIGH",
+      "dossier_ref": "d39",
+      "placement_reason": "Primary listing is Console Wallets; this entry reflects its use as a gift card.",
+      "asset_ref": "brand.xbox"
+    },
+    {
+      "key": "curated.libyana",
+      "parent_key": "curated",
+      "kind": "SERVICE",
+      "service_id": 1,
+      "service_name": "Libyana",
+      "name_en": "Libyana",
+      "name_ar": "ليبيانا",
+      "ar_source": "OFFICIAL",
+      "rank": 1,
+      "rationale": "Featured in the curated selection while keeping its primary placement.",
+      "confidence": "HIGH",
+      "dossier_ref": "d1",
+      "placement_reason": "Curated feature for a leading Libyan mobile top-up brand.",
+      "asset_ref": "brand.libyana"
+    },
+    {
+      "key": "curated.almadar",
+      "parent_key": "curated",
+      "kind": "SERVICE",
+      "service_id": 2,
+      "service_name": "Almadar",
+      "name_en": "Almadar",
+      "name_ar": "المدار الجديد",
+      "ar_source": "OFFICIAL",
+      "rank": 2,
+      "rationale": "Featured in the curated selection while keeping its primary placement.",
+      "confidence": "HIGH",
+      "dossier_ref": "d2",
+      "placement_reason": "Curated feature for a leading Libyan mobile top-up brand.",
+      "asset_ref": "brand.almadar"
+    },
+    {
+      "key": "curated.giga",
+      "parent_key": "curated",
+      "kind": "SERVICE",
+      "service_id": 5,
+      "service_name": "Giga",
+      "name_en": "Giga",
+      "name_ar": "جيجا",
+      "ar_source": "CONVENTIONAL",
+      "rank": 3,
+      "rationale": "Featured in the curated selection while keeping its primary placement.",
+      "confidence": "HIGH",
+      "dossier_ref": "d5",
+      "placement_reason": "Curated feature for a major Libyan internet provider.",
+      "asset_ref": "brand.giga"
+    },
+    {
+      "key": "curated.bein-sport",
+      "parent_key": "curated",
+      "kind": "SERVICE",
+      "service_id": 38,
+      "service_name": "beIN Sport",
+      "name_en": "beIN Sport",
+      "name_ar": "بي إن سبورت",
+      "ar_source": "OFFICIAL",
+      "rank": 4,
+      "rationale": "Featured in the curated selection while keeping its primary placement.",
+      "confidence": "HIGH",
+      "dossier_ref": "d38",
+      "placement_reason": "Curated feature for a popular sports subscription.",
+      "asset_ref": "brand.bein"
+    },
+    {
+      "key": "curated.pubg",
+      "parent_key": "curated",
+      "kind": "SERVICE",
+      "service_id": 37,
+      "service_name": "PUBG",
+      "name_en": "PUBG",
+      "name_ar": "ببجي موبايل",
+      "ar_source": "CONVENTIONAL",
+      "rank": 5,
+      "rationale": "Featured in the curated selection while keeping its primary placement.",
+      "confidence": "HIGH",
+      "dossier_ref": "d37",
+      "placement_reason": "Curated feature for a popular game currency voucher.",
+      "asset_ref": "brand.pubg"
+    },
+    {
+      "key": "curated.itunes",
+      "parent_key": "curated",
+      "kind": "SERVICE",
+      "service_id": 35,
+      "service_name": "ITunes",
+      "name_en": "ITunes",
+      "name_ar": "آي تيونز",
+      "ar_source": "CONVENTIONAL",
+      "rank": 6,
+      "rationale": "Featured in the curated selection while keeping its primary placement.",
+      "confidence": "HIGH",
+      "dossier_ref": "d35",
+      "placement_reason": "Curated feature for a widely used digital gift card.",
+      "asset_ref": "brand.itunes"
+    },
+    {
+      "key": "curated.academia",
+      "parent_key": "curated",
+      "kind": "SERVICE",
+      "service_id": 32,
+      "service_name": "Academia",
+      "name_en": "Academia",
+      "name_ar": "أكاديميا",
+      "ar_source": "TRANSLITERATED",
+      "rank": 7,
+      "rationale": "Featured in the curated selection while keeping its primary placement.",
+      "confidence": "HIGH",
+      "dossier_ref": "d32",
+      "placement_reason": "Curated feature for a prominent Libyan education platform.",
+      "asset_ref": "brand.academia"
+    }
+  ],
+  "decisions": [
+    {
+      "service_id": 1,
+      "service_name": "Libyana",
+      "decision": "PLACED",
+      "dossier_ref": "d1"
+    },
+    {
+      "service_id": 2,
+      "service_name": "Almadar",
+      "decision": "PLACED",
+      "dossier_ref": "d2"
+    },
+    {
+      "service_id": 3,
+      "service_name": "LTT",
+      "decision": "PLACED",
+      "dossier_ref": "d3"
+    },
+    {
+      "service_id": 4,
+      "service_name": "Hatif Libya",
+      "decision": "PLACED",
+      "dossier_ref": "d4"
+    },
+    {
+      "service_id": 5,
+      "service_name": "Giga",
+      "decision": "PLACED",
+      "dossier_ref": "d5"
+    },
+    {
+      "service_id": 6,
+      "service_name": "Riyada",
+      "decision": "PLACED",
+      "dossier_ref": "d6"
+    },
+    {
+      "service_id": 7,
+      "service_name": "Alkafaa",
+      "decision": "PLACED",
+      "dossier_ref": "d7"
+    },
+    {
+      "service_id": 8,
+      "service_name": "Dlconet",
+      "decision": "PLACED",
+      "dossier_ref": "d8"
+    },
+    {
+      "service_id": 9,
+      "service_name": "Digital Pulse",
+      "decision": "PLACED",
+      "dossier_ref": "d9"
+    },
+    {
+      "service_id": 10,
+      "service_name": "Smart Net",
+      "decision": "PLACED",
+      "dossier_ref": "d10"
+    },
+    {
+      "service_id": 11,
+      "service_name": "Zajil Libya",
+      "decision": "PLACED",
+      "dossier_ref": "d11"
+    },
+    {
+      "service_id": 12,
+      "service_name": "Sky Net",
+      "decision": "PLACED",
+      "dossier_ref": "d12"
+    },
+    {
+      "service_id": 13,
+      "service_name": "Connect",
+      "decision": "PLACED",
+      "dossier_ref": "d13"
+    },
+    {
+      "service_id": 14,
+      "service_name": "Qurina",
+      "decision": "PLACED",
+      "dossier_ref": "d14"
+    },
+    {
+      "service_id": 15,
+      "service_name": "Libya Soft Home",
+      "decision": "PLACED",
+      "dossier_ref": "d15"
+    },
+    {
+      "service_id": 16,
+      "service_name": "Libya Soft HotSpot",
+      "decision": "PLACED",
+      "dossier_ref": "d16"
+    },
+    {
+      "service_id": 17,
+      "service_name": "Alborj Telecom - Subscription",
+      "decision": "PLACED",
+      "dossier_ref": "d17"
+    },
+    {
+      "service_id": 18,
+      "service_name": "Alborj Telecom - Recharge",
+      "decision": "PLACED",
+      "dossier_ref": "d18"
+    },
+    {
+      "service_id": 19,
+      "service_name": "Smart 300",
+      "decision": "NEEDS_HUMAN",
+      "reason": "No reliable source connects Smart 300 to a specific provider or voucher product.",
+      "candidates": [
+        "Smart Net 300 package",
+        "Smart 300 internet package (unconfirmed ISP)"
+      ],
+      "dossier_ref": "d19"
+    },
+    {
+      "service_id": 20,
+      "service_name": "Open Market",
+      "decision": "NEEDS_HUMAN",
+      "reason": "Name matches several unrelated Libyan services; voucher issuer and product type are unclear.",
+      "candidates": [
+        "Open Souq voucher service",
+        "Libya Open Market classifieds platform"
+      ],
+      "dossier_ref": "d20"
+    },
+    {
+      "service_id": 21,
+      "service_name": "Oxygen",
+      "decision": "PLACED",
+      "dossier_ref": "d21"
+    },
+    {
+      "service_id": 22,
+      "service_name": "Libyan Spider",
+      "decision": "PLACED",
+      "dossier_ref": "d22"
+    },
+    {
+      "service_id": 23,
+      "service_name": "Ishrahli",
+      "decision": "PLACED",
+      "dossier_ref": "d23"
+    },
+    {
+      "service_id": 24,
+      "service_name": "Sadeem",
+      "decision": "PLACED",
+      "dossier_ref": "d24"
+    },
+    {
+      "service_id": 25,
+      "service_name": "Aljuman",
+      "decision": "PLACED",
+      "dossier_ref": "d25"
+    },
+    {
+      "service_id": 26,
+      "service_name": "Qnet",
+      "decision": "PLACED",
+      "dossier_ref": "d26"
+    },
+    {
+      "service_id": 27,
+      "service_name": "Libyatech",
+      "decision": "PLACED",
+      "dossier_ref": "d27"
+    },
+    {
+      "service_id": 28,
+      "service_name": "smart wave",
+      "decision": "PLACED",
+      "dossier_ref": "d28"
+    },
+    {
+      "service_id": 29,
+      "service_name": "ALHADATA",
+      "decision": "PLACED",
+      "dossier_ref": "d29"
+    },
+    {
+      "service_id": 30,
+      "service_name": "DS net",
+      "decision": "PLACED",
+      "dossier_ref": "d30"
+    },
+    {
+      "service_id": 31,
+      "service_name": "Ozon",
+      "decision": "PLACED",
+      "dossier_ref": "d31"
+    },
+    {
+      "service_id": 32,
+      "service_name": "Academia",
+      "decision": "PLACED",
+      "dossier_ref": "d32"
+    },
+    {
+      "service_id": 33,
+      "service_name": "Alofoq",
+      "decision": "PLACED",
+      "dossier_ref": "d33"
+    },
+    {
+      "service_id": 34,
+      "service_name": "Speetar",
+      "decision": "PLACED",
+      "dossier_ref": "d34"
+    },
+    {
+      "service_id": 35,
+      "service_name": "ITunes",
+      "decision": "PLACED",
+      "dossier_ref": "d35"
+    },
+    {
+      "service_id": 36,
+      "service_name": "RAZER GOLD",
+      "decision": "PLACED",
+      "dossier_ref": "d36"
+    },
+    {
+      "service_id": 37,
+      "service_name": "PUBG",
+      "decision": "PLACED",
+      "dossier_ref": "d37"
+    },
+    {
+      "service_id": 38,
+      "service_name": "beIN Sport",
+      "decision": "PLACED",
+      "dossier_ref": "d38"
+    },
+    {
+      "service_id": 39,
+      "service_name": "XBOX",
+      "decision": "PLACED",
+      "dossier_ref": "d39"
+    },
+    {
+      "service_id": 40,
+      "service_name": "PSN",
+      "decision": "PLACED",
+      "dossier_ref": "d40"
+    },
+    {
+      "service_id": 41,
+      "service_name": "Airtel",
+      "decision": "NEEDS_HUMAN",
+      "reason": "Airtel operates in many markets; the voucher's target country and product are unconfirmed.",
+      "candidates": [
+        "Airtel Africa mobile top-up",
+        "Airtel Money wallet top-up"
+      ],
+      "dossier_ref": "d41"
+    },
+    {
+      "service_id": 42,
+      "service_name": "Visa Middle East",
+      "decision": "NEEDS_HUMAN",
+      "reason": "Visa Middle East covers many card products; the exact voucher type and issuer are unconfirmed.",
+      "candidates": [
+        "Visa prepaid card (Middle East)",
+        "Visa gift card (Middle East)"
+      ],
+      "dossier_ref": "d42"
+    }
+  ],
+  "assets": [
+    {
+      "ref": "cat.curated",
+      "usage": "CATEGORY_ICON",
+      "source": {
+        "kind": "INLINE_SVG",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3l2.7 5.5 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.8 1-6.1-4.4-4.3 6.1-.9z\"/></svg>"
+      },
+      "license": {
+        "kind": "AI_INLINE_GENERIC",
+        "trademark_notice": false
+      },
+      "alt_en": "Curated selection category icon",
+      "alt_ar": "أيقونة قسم الخدمات المختارة",
+      "confidence": "HIGH"
+    },
+    {
+      "ref": "cat.mobile",
+      "usage": "CATEGORY_ICON",
+      "source": {
+        "kind": "INLINE_SVG",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"2\"/><path d=\"M10 18h4\"/></svg>"
+      },
+      "license": {
+        "kind": "AI_INLINE_GENERIC",
+        "trademark_notice": false
+      },
+      "alt_en": "Mobile top-up category icon",
+      "alt_ar": "أيقونة قسم تعبئة الرصيد",
+      "confidence": "HIGH"
+    },
+    {
+      "ref": "cat.internet",
+      "usage": "CATEGORY_ICON",
+      "source": {
+        "kind": "INLINE_SVG",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18\"/></svg>"
+      },
+      "license": {
+        "kind": "AI_INLINE_GENERIC",
+        "trademark_notice": false
+      },
+      "alt_en": "Internet category icon",
+      "alt_ar": "أيقونة قسم الإنترنت",
+      "confidence": "HIGH"
+    },
+    {
+      "ref": "cat.gaming",
+      "usage": "CATEGORY_ICON",
+      "source": {
+        "kind": "INLINE_SVG",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M6 8h12a4 4 0 0 1 4 4v2a4 4 0 0 1-7 2.6L13 15h-2l-2 1.6A4 4 0 0 1 2 14v-2a4 4 0 0 1 4-4z\"/><path d=\"M8 11v2M7 12h2M16 11h.01M18 13h.01\"/></svg>"
+      },
+      "license": {
+        "kind": "AI_INLINE_GENERIC",
+        "trademark_notice": false
+      },
+      "alt_en": "Gaming category icon",
+      "alt_ar": "أيقونة قسم الألعاب",
+      "confidence": "HIGH"
+    },
+    {
+      "ref": "cat.digital",
+      "usage": "CATEGORY_ICON",
+      "source": {
+        "kind": "INLINE_SVG",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\"/><rect x=\"14\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\"/><rect x=\"3\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\"/><path d=\"M17.5 14v7M14 17.5h7\"/></svg>"
+      },
+      "license": {
+        "kind": "AI_INLINE_GENERIC",
+        "trademark_notice": false
+      },
+      "alt_en": "Digital services category icon",
+      "alt_ar": "أيقونة قسم الخدمات الرقمية",
+      "confidence": "HIGH"
+    },
+    {
+      "ref": "cat.giftcards",
+      "usage": "CATEGORY_ICON",
+      "source": {
+        "kind": "INLINE_SVG",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"8\" width=\"18\" height=\"13\" rx=\"2\"/><path d=\"M3 12h18M12 8v13M12 8c-1.5-3-6-3-6 0M12 8c1.5-3 6-3 6 0\"/></svg>"
+      },
+      "license": {
+        "kind": "AI_INLINE_GENERIC",
+        "trademark_notice": false
+      },
+      "alt_en": "Gift cards category icon",
+      "alt_ar": "أيقونة قسم بطاقات الهدايا",
+      "confidence": "HIGH"
+    },
+    {
+      "ref": "brand.libyana",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.libyana.png"
+      },
+      "license": {
+        "kind": "WIKIMEDIA_COMMONS",
+        "attribution": "Libyana Mobile Phone, CC BY-SA 4.0, via Wikimedia Commons",
+        "trademark_notice": true
+      },
+      "alt_en": "Libyana logo",
+      "alt_ar": "شعار ليبيانا",
+      "confidence": "HIGH",
+      "sha256_expected": "53981fb183a0e5000f25645f08901691ba57efafdc719b23f7efc5153f0dac57"
+    },
+    {
+      "ref": "brand.almadar",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.almadar.png"
+      },
+      "license": {
+        "kind": "OFFICIAL_BRAND_KIT",
+        "attribution": "Official brand asset from https://almadar.ly (Almadar Aljadid)",
+        "trademark_notice": true
+      },
+      "alt_en": "Almadar Aljadid logo",
+      "alt_ar": "شعار المدار الجديد",
+      "confidence": "HIGH",
+      "sha256_expected": "93cec6db5b1d3e4a8f9f06b4177987750cd6c400ba3a6cfbeb082a582765bf76"
+    },
+    {
+      "ref": "brand.ltt",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.ltt.png"
+      },
+      "license": {
+        "kind": "WIKIMEDIA_COMMONS",
+        "attribution": "LTT, CC0, via Wikimedia Commons",
+        "trademark_notice": true
+      },
+      "alt_en": "LTT logo",
+      "alt_ar": "شعار ليبيا للاتصالات والتقنية",
+      "confidence": "HIGH",
+      "sha256_expected": "df8bd7041e0bed9109368c6ee4ca8f0dd39e03bad4df52bb954127d0a8acee9f"
+    },
+    {
+      "ref": "brand.hatif",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.hatif.png"
+      },
+      "license": {
+        "kind": "OFFICIAL_BRAND_KIT",
+        "attribution": "Official brand asset from https://hlc.ly (Hatif Libya)",
+        "trademark_notice": true
+      },
+      "alt_en": "Hatif Libya logo",
+      "alt_ar": "شعار هاتف ليبيا",
+      "confidence": "HIGH",
+      "sha256_expected": "24727f10991a5cd3533ede4bb159ca32d4af0fcc74e4d970bdc7901ef68b822c"
+    },
+    {
+      "ref": "brand.giga",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.giga.png"
+      },
+      "license": {
+        "kind": "OFFICIAL_BRAND_KIT",
+        "attribution": "Official brand asset from https://giga.ly (Giga)",
+        "trademark_notice": true
+      },
+      "alt_en": "Giga logo",
+      "alt_ar": "شعار جيجا",
+      "confidence": "HIGH",
+      "sha256_expected": "eb2ef6ab9d4b56de60ac3c6f41473cc9c061dddd34c06a86941b33470c187ab7"
+    },
+    {
+      "ref": "brand.riyada",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.riyada.png"
+      },
+      "license": {
+        "kind": "OFFICIAL_BRAND_KIT",
+        "attribution": "Official brand asset from https://alriyada.ly (Al Riyada)",
+        "trademark_notice": true
+      },
+      "alt_en": "Al Riyada logo",
+      "alt_ar": "شعار الريادة",
+      "confidence": "MEDIUM",
+      "sha256_expected": "bb443b2cf78430f49e321603c5965374497bbfe2436f01ffbf6b30ae6e7eaa10"
+    },
+    {
+      "ref": "brand.alkafaa",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.alkafaa.png"
+      },
+      "license": {
+        "kind": "OFFICIAL_BRAND_KIT",
+        "attribution": "Official brand asset from https://alkafaa.net (Alkafaa)",
+        "trademark_notice": true
+      },
+      "alt_en": "Alkafaa logo",
+      "alt_ar": "شعار الكفاءة",
+      "confidence": "MEDIUM",
+      "sha256_expected": "7ce378c79e25c7dc1f3d4df0e87aa7a89fc009e98f914ed037811efbe970189b"
+    },
+    {
+      "ref": "brand.dlconet",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.dlconet.png"
+      },
+      "license": {
+        "kind": "OFFICIAL_BRAND_KIT",
+        "attribution": "Official brand asset from https://dlconet.ly (DLConet)",
+        "trademark_notice": true
+      },
+      "alt_en": "DLConet logo",
+      "alt_ar": "شعار دلكونت",
+      "confidence": "HIGH",
+      "sha256_expected": "67b4fda7b79d3c4f544a68eee61c78f2d93e5f0f9ebf503ac03ba93f6a0ef70f"
+    },
+    {
+      "ref": "brand.digital-pulse",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.digital-pulse.png"
+      },
+      "license": {
+        "kind": "OFFICIAL_BRAND_KIT",
+        "attribution": "Official brand asset from https://ditt.ly (Digital Pulse)",
+        "trademark_notice": true
+      },
+      "alt_en": "Digital Pulse logo",
+      "alt_ar": "شعار النبضة الرقمية",
+      "confidence": "HIGH",
+      "sha256_expected": "2102e4ddb48471c8faceb3d7e56e64047518750bae6638688d3c3d3c80cec6d0"
+    },
+    {
+      "ref": "brand.smart-net",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.smart-net.png"
+      },
+      "license": {
+        "kind": "OFFICIAL_BRAND_KIT",
+        "attribution": "Official brand asset from https://smart.net.ly (Smart Net)",
+        "trademark_notice": true
+      },
+      "alt_en": "Smart Net logo",
+      "alt_ar": "شعار الشبكة الذكية",
+      "confidence": "MEDIUM",
+      "sha256_expected": "6731779b68b6375991bf59ca5c9baecb71797d29a943b7558263002b581053f2"
+    },
+    {
+      "ref": "brand.zajil",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.zajil.png"
+      },
+      "license": {
+        "kind": "PROVIDER_SUPPLIED",
+        "attribution": "Official Zajil Libya app icon from Google Play (com.zajellibya.app)",
+        "trademark_notice": true
+      },
+      "alt_en": "Zajil Libya logo",
+      "alt_ar": "شعار زاجل ليبيا",
+      "confidence": "MEDIUM",
+      "sha256_expected": "b13ec7f966758e1cf9c6101b0caef82cc9c46739334714e056f5f09c9fd8213b"
+    },
+    {
+      "ref": "brand.qurina",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.qurina.png"
+      },
+      "license": {
+        "kind": "OFFICIAL_BRAND_KIT",
+        "attribution": "Official brand asset from https://coreena-hplus.ly (Qurina/Coreena)",
+        "trademark_notice": true
+      },
+      "alt_en": "Qurina logo",
+      "alt_ar": "شعار قورينا",
+      "confidence": "MEDIUM",
+      "sha256_expected": "8169d759cd5ded14163f4d73d087339de2e1368bcc22be6f92d3653feb6288a5"
+    },
+    {
+      "ref": "brand.libya-soft",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.libya-soft.png"
+      },
+      "license": {
+        "kind": "OFFICIAL_BRAND_KIT",
+        "attribution": "Official brand asset from https://libyasoft.net (Libya Soft)",
+        "trademark_notice": true
+      },
+      "alt_en": "Libya Soft logo",
+      "alt_ar": "شعار ليبيا سوفت",
+      "confidence": "MEDIUM",
+      "sha256_expected": "4524f02fb1ff07013a909501a349c456fef624579b407700781b1b390af5cad3"
+    },
+    {
+      "ref": "brand.alborj",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.alborj.png"
+      },
+      "license": {
+        "kind": "OFFICIAL_BRAND_KIT",
+        "attribution": "Official brand asset from https://actt.ly (Alborj Telecom)",
+        "trademark_notice": true
+      },
+      "alt_en": "Alborj Telecom logo",
+      "alt_ar": "شعار البرج للاتصالات",
+      "confidence": "MEDIUM",
+      "sha256_expected": "802e5a114afb6bd13249956f1f2a59a5cf1eb757e46ae7cc424852e5ac4542bc"
+    },
+    {
+      "ref": "brand.oxygen",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.oxygen.png"
+      },
+      "license": {
+        "kind": "OFFICIAL_BRAND_KIT",
+        "attribution": "Official brand asset from https://oxygen.net.ly (Oxygen)",
+        "trademark_notice": true
+      },
+      "alt_en": "Oxygen logo",
+      "alt_ar": "شعار أكسجين",
+      "confidence": "HIGH",
+      "sha256_expected": "39b5909e3a0008bd69bcc85bbecc9a4edfb7937761ee4327d7bece9c81ef6371"
+    },
+    {
+      "ref": "brand.libyan-spider",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.libyan-spider.png"
+      },
+      "license": {
+        "kind": "OFFICIAL_BRAND_KIT",
+        "attribution": "Official brand asset from https://libyanspider.com (Libyan Spider)",
+        "trademark_notice": true
+      },
+      "alt_en": "Libyan Spider logo",
+      "alt_ar": "شعار ليبيا سبايدر",
+      "confidence": "HIGH",
+      "sha256_expected": "7502b6e8cbefaa3b438974a36f384f8ff2db1b21a964fad024e4a38ea48fe54c"
+    },
+    {
+      "ref": "brand.ishrahli",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.ishrahli.png"
+      },
+      "license": {
+        "kind": "OFFICIAL_BRAND_KIT",
+        "attribution": "Official brand asset from https://eshrah.ly (Ishrahli)",
+        "trademark_notice": true
+      },
+      "alt_en": "Ishrahli logo",
+      "alt_ar": "شعار اشرحلي",
+      "confidence": "HIGH",
+      "sha256_expected": "5678774b3dc8de5308758dff12b610f45460fa0baa21ae0e95a70ba6f665781c"
+    },
+    {
+      "ref": "brand.sadeem",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.sadeem.png"
+      },
+      "license": {
+        "kind": "OFFICIAL_BRAND_KIT",
+        "attribution": "Official brand asset from https://www.sadeamgroup.com (Sadeem Group)",
+        "trademark_notice": true
+      },
+      "alt_en": "Sadeem Group logo",
+      "alt_ar": "شعار السديم",
+      "confidence": "HIGH",
+      "sha256_expected": "ca11b2e683314d884e23f76edfcb565894f1673dfba51e917014a49856a06730"
+    },
+    {
+      "ref": "brand.aljuman",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.aljuman.png"
+      },
+      "license": {
+        "kind": "OFFICIAL_BRAND_KIT",
+        "attribution": "Official brand asset from https://aljuman.ly (Aljuman Aljadeed)",
+        "trademark_notice": true
+      },
+      "alt_en": "Aljuman Aljadeed logo",
+      "alt_ar": "شعار الجمان الجديد",
+      "confidence": "MEDIUM",
+      "sha256_expected": "357dc6b1b3a0b6665dfdc21a483b3d91a412b33b6e603920e5997697b3321246"
+    },
+    {
+      "ref": "brand.libyatech",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.libyatech.png"
+      },
+      "license": {
+        "kind": "OFFICIAL_BRAND_KIT",
+        "attribution": "Official brand asset from https://www.libyatech.ly (Libyatech)",
+        "trademark_notice": true
+      },
+      "alt_en": "Libyatech logo",
+      "alt_ar": "شعار ليبيا تك",
+      "confidence": "HIGH",
+      "sha256_expected": "c1ef4d64c50be6b54e3e011ca51bf51ba2bdcde387f58e02003a79c56e5e2188"
+    },
+    {
+      "ref": "brand.smart-wave",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.smart-wave.png"
+      },
+      "license": {
+        "kind": "OFFICIAL_BRAND_KIT",
+        "attribution": "Official brand asset from https://www.smartwave.ly (Smart Wave)",
+        "trademark_notice": true
+      },
+      "alt_en": "Smart Wave logo",
+      "alt_ar": "شعار الموجة الذكية",
+      "confidence": "HIGH",
+      "sha256_expected": "e5c7b488c995ccc7036183cc066a8ceccafc8bec3e1c306b296d6c4ad781c50e"
+    },
+    {
+      "ref": "brand.alofoq",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.alofoq.png"
+      },
+      "license": {
+        "kind": "OFFICIAL_BRAND_KIT",
+        "attribution": "Official white brand asset from https://www.alofoq.ly (Alofoq Alraqami)",
+        "trademark_notice": true
+      },
+      "alt_en": "Alofoq Alraqami logo",
+      "alt_ar": "شعار الأفق الرقمي",
+      "confidence": "MEDIUM",
+      "sha256_expected": "043a39af7a45ac1d4dadeb2967e30efce24ba134813eb862fe971f92ad3f233c"
+    },
+    {
+      "ref": "brand.ds-net",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.ds-net.png"
+      },
+      "license": {
+        "kind": "OFFICIAL_BRAND_KIT",
+        "attribution": "Official brand asset from https://dsnet.ly (DS net)",
+        "trademark_notice": true
+      },
+      "alt_en": "DS net logo",
+      "alt_ar": "شعار دي إس نت",
+      "confidence": "HIGH",
+      "sha256_expected": "d69a8f2aacdc437d62e0f71bd6c71ae3a9ad863c896028e3e5a221e7e1943bc5"
+    },
+    {
+      "ref": "brand.ozon",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.ozon.png"
+      },
+      "license": {
+        "kind": "OFFICIAL_BRAND_KIT",
+        "attribution": "Official brand asset from https://ozon.ly (Ozon Aljadeed)",
+        "trademark_notice": true
+      },
+      "alt_en": "Ozon Aljadeed logo",
+      "alt_ar": "شعار أوزون الجديد",
+      "confidence": "HIGH",
+      "sha256_expected": "054dad25ec8b01d8c79860891824e15fe5b79dfa73b132d687994b4ba68b0376"
+    },
+    {
+      "ref": "brand.academia",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.academia.png"
+      },
+      "license": {
+        "kind": "OFFICIAL_BRAND_KIT",
+        "attribution": "Official brand asset from https://academia.ly (Academia)",
+        "trademark_notice": true
+      },
+      "alt_en": "Academia logo",
+      "alt_ar": "شعار أكاديميا",
+      "confidence": "HIGH",
+      "sha256_expected": "cf695dbb961a1a5a3dc6118fea656ec3aa4881ed7abbc3ca14d97d996b78d3ed"
+    },
+    {
+      "ref": "brand.speetar",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.speetar.png"
+      },
+      "license": {
+        "kind": "OFFICIAL_BRAND_KIT",
+        "attribution": "Official brand asset from https://speetar.com (Speetar)",
+        "trademark_notice": true
+      },
+      "alt_en": "Speetar logo",
+      "alt_ar": "شعار سبيتار",
+      "confidence": "HIGH",
+      "sha256_expected": "eaa23e8abf6b5579f64243dd4931e82bad23d7581b8b728fb880a59cf2c36085"
+    },
+    {
+      "ref": "brand.bein",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.bein.png"
+      },
+      "license": {
+        "kind": "WIKIMEDIA_COMMONS",
+        "attribution": "beIN Media Group, public domain, via Wikimedia Commons",
+        "trademark_notice": true
+      },
+      "alt_en": "beIN Sports logo",
+      "alt_ar": "شعار بي إن سبورت",
+      "confidence": "HIGH",
+      "sha256_expected": "1b588488322c0c8b1edf1c935005658f128fded9d744b780968389df7cd80535"
+    },
+    {
+      "ref": "brand.itunes",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.itunes.png"
+      },
+      "license": {
+        "kind": "WIKIMEDIA_COMMONS",
+        "attribution": "Apple Inc., public domain, via Wikimedia Commons",
+        "trademark_notice": true
+      },
+      "alt_en": "iTunes Store logo",
+      "alt_ar": "شعار آي تيونز",
+      "confidence": "HIGH",
+      "sha256_expected": "dacfd35a7b767514d0d1eb5d7d7bf4a41ac15f0b8d49ab18124e54d743b95601"
+    },
+    {
+      "ref": "brand.razer-gold",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.razer-gold.png"
+      },
+      "license": {
+        "kind": "WIKIMEDIA_COMMONS",
+        "attribution": "Razer Inc., public domain, via Wikimedia Commons (Razer wordmark)",
+        "trademark_notice": true
+      },
+      "alt_en": "Razer logo (Razer Gold brand family)",
+      "alt_ar": "شعار ريزر جولد",
+      "confidence": "MEDIUM",
+      "sha256_expected": "02bb7d4969621ce97ad38eb49bb54120b75deb85b1991669f85ff0a816355e9b"
+    },
+    {
+      "ref": "brand.pubg",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.pubg.png"
+      },
+      "license": {
+        "kind": "WIKIMEDIA_COMMONS",
+        "attribution": "Krafton / Level Infinite, public domain, via Wikimedia Commons",
+        "trademark_notice": true
+      },
+      "alt_en": "PUBG Mobile logo",
+      "alt_ar": "شعار ببجي موبايل",
+      "confidence": "HIGH",
+      "sha256_expected": "d68f437eac0ca6edabc490046e439aeed7e49cae1e87dd152d2bd6239e751dd7"
+    },
+    {
+      "ref": "brand.xbox",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.xbox.png"
+      },
+      "license": {
+        "kind": "WIKIMEDIA_COMMONS",
+        "attribution": "Microsoft Corporation, public domain, via Wikimedia Commons",
+        "trademark_notice": true
+      },
+      "alt_en": "Xbox logo",
+      "alt_ar": "شعار إكس بوكس",
+      "confidence": "HIGH",
+      "sha256_expected": "e07089ae21ad57b93b7a773ba7cf05a6fa7ef3f5093c321b8e68befe02be307e"
+    },
+    {
+      "ref": "brand.psn",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.psn.png"
+      },
+      "license": {
+        "kind": "WIKIMEDIA_COMMONS",
+        "attribution": "Sony Computer Entertainment, public domain, via Wikimedia Commons",
+        "trademark_notice": true
+      },
+      "alt_en": "PlayStation Network logo",
+      "alt_ar": "شعار بلايستيشن نتوورك",
+      "confidence": "HIGH",
+      "sha256_expected": "d774c6e88bc01307c720f773fe3bdfe78a8f731cbf4eb03145ccd8469e922b0a"
+    },
+    {
+      "ref": "brand.airtel",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.airtel.png"
+      },
+      "license": {
+        "kind": "WIKIMEDIA_COMMONS",
+        "attribution": "Bharti Airtel, public domain, via Wikimedia Commons",
+        "trademark_notice": true
+      },
+      "alt_en": "Airtel logo",
+      "alt_ar": "شعار إيرتل",
+      "confidence": "HIGH",
+      "sha256_expected": "5d61e0509d963a7ccf6ba16bd14adbfdaa2c37229fac624f67e9b92c8a7844e4"
+    },
+    {
+      "ref": "brand.visa",
+      "usage": "BRAND_LOGO",
+      "source": {
+        "kind": "BUNDLE_FILE",
+        "path": "assets/brand.visa.png"
+      },
+      "license": {
+        "kind": "WIKIMEDIA_COMMONS",
+        "attribution": "Visa Inc., public domain, via Wikimedia Commons",
+        "trademark_notice": true
+      },
+      "alt_en": "Visa logo",
+      "alt_ar": "شعار فيزا",
+      "confidence": "HIGH",
+      "sha256_expected": "1f17f8e9138311b7b864ee50b9fa234e14726ddc1e0d0139bdf924078efe4e8a"
+    }
+  ],
+  "dossiers": [
+    {
+      "id": "d1",
+      "service_id": 1,
+      "identified_as": {
+        "brand": "Libyana",
+        "product_type": "TOPUP",
+        "region": "Libya",
+        "official_domain": "libyana.ly"
+      },
+      "evidence": [
+        {
+          "url": "https://libyana.ly",
+          "title": "Libyana official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official Libyan mobile operator site confirming the Libyana brand."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists Libyana recharge vouchers alongside other Libyan top-ups."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Libyana_mobile_phone_logo.png",
+          "title": "Wikimedia Commons brand logo file",
+          "retrieved_at": "2026-10-29T13:55:32Z",
+          "supports": "image",
+          "summary": "Source page for the bundled brand logo asset used on this service listing."
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "service_id": 2,
+      "identified_as": {
+        "brand": "Almadar",
+        "product_type": "TOPUP",
+        "region": "Libya",
+        "official_domain": "almadar.ly"
+      },
+      "evidence": [
+        {
+          "url": "https://almadar.ly",
+          "title": "Almadar official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official site for the Almadar Aljadid mobile network in Libya."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists Almadar recharge vouchers alongside other Libyan top-ups."
+        },
+        {
+          "url": "https://www.almadar.ly/ar/Pages/Home.aspx",
+          "title": "Official or source image page (www.almadar.ly)",
+          "retrieved_at": "2026-10-29T13:55:32Z",
+          "supports": "image",
+          "summary": "Source page for the bundled brand logo asset used on this service listing."
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "service_id": 3,
+      "identified_as": {
+        "brand": "LTT",
+        "product_type": "TOPUP",
+        "region": "Libya",
+        "official_domain": "ltt.ly"
+      },
+      "evidence": [
+        {
+          "url": "https://ltt.ly",
+          "title": "LTT official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official site of Libya Telecom and Technology, a national telecom and internet provider."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists LTT prepaid vouchers among Libyan internet and telecom services."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:LTT_Logo_2024.png",
+          "title": "Wikimedia Commons brand logo file",
+          "retrieved_at": "2026-10-29T13:55:32Z",
+          "supports": "image",
+          "summary": "Source page for the bundled brand logo asset used on this service listing."
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "service_id": 4,
+      "identified_as": {
+        "brand": "Hatif Libya",
+        "product_type": "TOPUP",
+        "region": "Libya",
+        "official_domain": "hlc.ly"
+      },
+      "evidence": [
+        {
+          "url": "https://hlc.ly/about/",
+          "title": "Hatif Libya about page",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official page describes Hatif Libya as the national fixed-line telecom operator."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists Hatif Libya vouchers among Libyan prepaid services."
+        },
+        {
+          "url": "https://hlc.ly/",
+          "title": "Official or source image page (hlc.ly)",
+          "retrieved_at": "2026-10-29T13:55:32Z",
+          "supports": "image",
+          "summary": "Source page for the bundled brand logo asset used on this service listing."
+        }
+      ]
+    },
+    {
+      "id": "d5",
+      "service_id": 5,
+      "identified_as": {
+        "brand": "Giga",
+        "product_type": "TOPUP",
+        "region": "Libya",
+        "official_domain": "giga.ly"
+      },
+      "evidence": [
+        {
+          "url": "https://giga.ly",
+          "title": "Giga official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official site of Giga, a Libyan internet and communications provider."
+        },
+        {
+          "url": "https://libyaherald.com/2022/03/private-isps-deliver-50-percent-of-bandwidth-to-home-users-private-sector-isp-gigas-co-founder-sabkha",
+          "title": "Libya Herald profile of Giga",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Article identifies Giga as one of Libya's largest private ISPs."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists Giga internet vouchers among Libyan prepaid services."
+        }
+      ]
+    },
+    {
+      "id": "d6",
+      "service_id": 6,
+      "identified_as": {
+        "brand": "Al Riyada",
+        "product_type": "TOPUP",
+        "region": "Libya",
+        "official_domain": "alriyada.ly"
+      },
+      "evidence": [
+        {
+          "url": "https://alriyada.ly",
+          "title": "Al Riyada official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official site of Al Riyada, a Libyan internet and DVB services provider."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists Riyada internet vouchers among Libyan prepaid services."
+        },
+        {
+          "url": "https://alriyada.ly/",
+          "title": "Official or source image page (alriyada.ly)",
+          "retrieved_at": "2026-10-29T13:55:32Z",
+          "supports": "image",
+          "summary": "Source page for the bundled brand logo asset used on this service listing."
+        }
+      ]
+    },
+    {
+      "id": "d7",
+      "service_id": 7,
+      "identified_as": {
+        "brand": "Alkafaa",
+        "product_type": "TOPUP",
+        "region": "Libya",
+        "official_domain": "alkafaa.net"
+      },
+      "evidence": [
+        {
+          "url": "https://alkafaa.net/about.html",
+          "title": "Alkafaa Telecom about page",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Company page identifies Alkafaa as a Libyan internet and IT services provider."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists Alkafaa internet vouchers among Libyan prepaid services."
+        },
+        {
+          "url": "https://alkafaa.net/about.html",
+          "title": "Official or source image page (alkafaa.net)",
+          "retrieved_at": "2026-10-29T13:55:32Z",
+          "supports": "image",
+          "summary": "Source page for the bundled brand logo asset used on this service listing."
+        }
+      ]
+    },
+    {
+      "id": "d8",
+      "service_id": 8,
+      "identified_as": {
+        "brand": "DLConet",
+        "product_type": "TOPUP",
+        "region": "Libya",
+        "official_domain": "dlconet.ly"
+      },
+      "evidence": [
+        {
+          "url": "https://dlconet.ly",
+          "title": "DLConet official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official site for DLConet home internet and Wi-Go hotspot services."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists Dlconet internet vouchers among Libyan prepaid services."
+        },
+        {
+          "url": "https://dlconet.ly/",
+          "title": "Official or source image page (dlconet.ly)",
+          "retrieved_at": "2026-10-29T13:55:32Z",
+          "supports": "image",
+          "summary": "Source page for the bundled brand logo asset used on this service listing."
+        }
+      ]
+    },
+    {
+      "id": "d9",
+      "service_id": 9,
+      "identified_as": {
+        "brand": "Digital Pulse",
+        "product_type": "TOPUP",
+        "region": "Libya",
+        "official_domain": "ditt.ly"
+      },
+      "evidence": [
+        {
+          "url": "https://ditt.ly",
+          "title": "Alnabda Alrqamaya official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official site of the Libyan ISP known in English as Digital Pulse."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists Digital Pulse internet vouchers among Libyan prepaid services."
+        },
+        {
+          "url": "https://ditt.ly/",
+          "title": "Official or source image page (ditt.ly)",
+          "retrieved_at": "2026-10-29T13:55:32Z",
+          "supports": "image",
+          "summary": "Source page for the bundled brand logo asset used on this service listing."
+        }
+      ]
+    },
+    {
+      "id": "d10",
+      "service_id": 10,
+      "identified_as": {
+        "brand": "Smart Net",
+        "product_type": "TOPUP",
+        "region": "Libya",
+        "official_domain": "smart.net.ly"
+      },
+      "evidence": [
+        {
+          "url": "https://smart.net.ly",
+          "title": "Smart Net official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official site of Smart Net, a Libyan wireless internet provider."
+        },
+        {
+          "url": "https://www.gftme.com/information-technology/",
+          "title": "Smart Net company profile",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Profile describes Smart Net as a Libyan ISP serving homes and businesses."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists Smart Net internet vouchers among Libyan prepaid services."
+        }
+      ]
+    },
+    {
+      "id": "d11",
+      "service_id": 11,
+      "identified_as": {
+        "brand": "Zajil Libya",
+        "product_type": "TOPUP",
+        "region": "Libya"
+      },
+      "evidence": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.zajellibya.app",
+          "title": "Zajil Libya app listing",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official app listing for Zajil Libya internet subscription management."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists Zajil Libya internet vouchers among Libyan prepaid services."
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.zajellibya.app",
+          "title": "Official or source image page (play.google.com)",
+          "retrieved_at": "2026-10-29T13:55:32Z",
+          "supports": "image",
+          "summary": "Source page for the bundled brand logo asset used on this service listing."
+        }
+      ]
+    },
+    {
+      "id": "d12",
+      "service_id": 12,
+      "identified_as": {
+        "brand": "Sky Net",
+        "product_type": "TOPUP",
+        "region": "Libya",
+        "official_domain": "sky-net.ly"
+      },
+      "evidence": [
+        {
+          "url": "http://sky-net.ly",
+          "title": "Sky Net official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official site for the Libyan Sky Net internet service."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists Sky Net internet vouchers among Libyan prepaid services."
+        }
+      ]
+    },
+    {
+      "id": "d13",
+      "service_id": 13,
+      "identified_as": {
+        "brand": "Connect",
+        "product_type": "TOPUP",
+        "region": "Libya",
+        "official_domain": "connect.ly"
+      },
+      "evidence": [
+        {
+          "url": "https://www.connect.ly/en/index.html",
+          "title": "Connect official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official site of Connect, a Libyan internet provider in Benghazi and Tripoli."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists Connect internet vouchers among Libyan prepaid services."
+        }
+      ]
+    },
+    {
+      "id": "d14",
+      "service_id": 14,
+      "identified_as": {
+        "brand": "Qurina",
+        "product_type": "TOPUP",
+        "region": "Libya",
+        "official_domain": "coreena-hplus.ly"
+      },
+      "evidence": [
+        {
+          "url": "https://coreena-hplus.ly",
+          "title": "Coreena H+ official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official site of the Qurina/Coreena internet provider with recharge portal."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists Qurina internet vouchers among Libyan prepaid services."
+        },
+        {
+          "url": "https://coreena-hplus.ly/",
+          "title": "Official or source image page (coreena-hplus.ly)",
+          "retrieved_at": "2026-10-29T13:55:32Z",
+          "supports": "image",
+          "summary": "Source page for the bundled brand logo asset used on this service listing."
+        }
+      ]
+    },
+    {
+      "id": "d15",
+      "service_id": 15,
+      "identified_as": {
+        "brand": "Libya Soft",
+        "product_type": "TOPUP",
+        "region": "Libya",
+        "official_domain": "libyasoft.net"
+      },
+      "evidence": [
+        {
+          "url": "https://libyasoft.net",
+          "title": "Libya Soft official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official Libya Soft site for home internet packages and recharge."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists Libya Soft home internet vouchers among Libyan prepaid services."
+        },
+        {
+          "url": "https://libyasoft.net/",
+          "title": "Official or source image page (libyasoft.net)",
+          "retrieved_at": "2026-10-29T13:55:32Z",
+          "supports": "image",
+          "summary": "Source page for the bundled brand logo asset used on this service listing."
+        }
+      ]
+    },
+    {
+      "id": "d16",
+      "service_id": 16,
+      "identified_as": {
+        "brand": "Libya Soft",
+        "product_type": "TOPUP",
+        "region": "Libya",
+        "official_domain": "libyasoft.net"
+      },
+      "evidence": [
+        {
+          "url": "https://libyasoft.net",
+          "title": "Libya Soft official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official Libya Soft site covering hotspot and home internet services."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists Libya Soft hotspot vouchers among Libyan prepaid services."
+        },
+        {
+          "url": "https://libyasoft.net/",
+          "title": "Official or source image page (libyasoft.net)",
+          "retrieved_at": "2026-10-29T13:55:32Z",
+          "supports": "image",
+          "summary": "Source page for the bundled brand logo asset used on this service listing."
+        }
+      ]
+    },
+    {
+      "id": "d17",
+      "service_id": 17,
+      "identified_as": {
+        "brand": "Alborj Telecom",
+        "product_type": "SUBSCRIPTION",
+        "region": "Libya",
+        "official_domain": "actt.ly"
+      },
+      "evidence": [
+        {
+          "url": "https://actt.ly",
+          "title": "Alborj Telecom official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official site of Alborj Telecom and IT, showing internet subscription packages."
+        },
+        {
+          "url": "https://actt.ly/",
+          "title": "Official or source image page (actt.ly)",
+          "retrieved_at": "2026-10-29T13:55:32Z",
+          "supports": "image",
+          "summary": "Source page for the bundled brand logo asset used on this service listing."
+        }
+      ]
+    },
+    {
+      "id": "d18",
+      "service_id": 18,
+      "identified_as": {
+        "brand": "Alborj Telecom",
+        "product_type": "TOPUP",
+        "region": "Libya",
+        "official_domain": "actt.ly"
+      },
+      "evidence": [
+        {
+          "url": "https://actt.ly",
+          "title": "Alborj Telecom official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official site confirms Alborj Telecom internet services and contact details."
+        },
+        {
+          "url": "https://actt.ly/",
+          "title": "Official or source image page (actt.ly)",
+          "retrieved_at": "2026-10-29T13:55:32Z",
+          "supports": "image",
+          "summary": "Source page for the bundled brand logo asset used on this service listing."
+        }
+      ]
+    },
+    {
+      "id": "d19",
+      "service_id": 19,
+      "identified_as": {
+        "brand": "Smart 300",
+        "product_type": "OTHER",
+        "region": "Libya"
+      },
+      "evidence": [],
+      "open_questions": [
+        "Confirm whether Smart 300 is a standalone ISP or a package name.",
+        "Identify official domain and voucher issuer."
+      ]
+    },
+    {
+      "id": "d20",
+      "service_id": 20,
+      "identified_as": {
+        "brand": "Open Market",
+        "product_type": "OTHER",
+        "region": "Libya"
+      },
+      "evidence": [],
+      "open_questions": [
+        "Determine whether this is a marketplace voucher, an ISP, or another service.",
+        "Identify official domain and voucher issuer."
+      ]
+    },
+    {
+      "id": "d21",
+      "service_id": 21,
+      "identified_as": {
+        "brand": "Oxygen",
+        "product_type": "TOPUP",
+        "region": "Libya",
+        "official_domain": "oxygen.net.ly"
+      },
+      "evidence": [
+        {
+          "url": "https://oxygen.net.ly",
+          "title": "Oxygen official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official site of Oxygen Telecom and Technology, a Libyan internet provider."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists Oxygen internet vouchers among Libyan prepaid services."
+        },
+        {
+          "url": "https://oxygen.net.ly/",
+          "title": "Official or source image page (oxygen.net.ly)",
+          "retrieved_at": "2026-10-29T13:55:32Z",
+          "supports": "image",
+          "summary": "Source page for the bundled brand logo asset used on this service listing."
+        }
+      ]
+    },
+    {
+      "id": "d22",
+      "service_id": 22,
+      "identified_as": {
+        "brand": "Libyan Spider",
+        "product_type": "OTHER",
+        "region": "Libya",
+        "official_domain": "libyanspider.com"
+      },
+      "evidence": [
+        {
+          "url": "https://www.libyanspider.com",
+          "title": "Libyan Spider official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official site of Libyan Spider, a Libyan hosting and web services company."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists Libyan Spider service vouchers among Libyan prepaid products."
+        },
+        {
+          "url": "https://libyanspider.com/",
+          "title": "Official or source image page (libyanspider.com)",
+          "retrieved_at": "2026-10-29T13:55:32Z",
+          "supports": "image",
+          "summary": "Source page for the bundled brand logo asset used on this service listing."
+        }
+      ]
+    },
+    {
+      "id": "d23",
+      "service_id": 23,
+      "identified_as": {
+        "brand": "Ishrahli",
+        "product_type": "SUBSCRIPTION",
+        "region": "Libya",
+        "official_domain": "eshrah.ly"
+      },
+      "evidence": [
+        {
+          "url": "https://eshrah.ly",
+          "title": "Ishrahli official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official site of the Libyan Ishrahli e-learning platform."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists Ishrahli platform credit among Libyan prepaid services."
+        },
+        {
+          "url": "https://eshrah.ly/",
+          "title": "Official or source image page (eshrah.ly)",
+          "retrieved_at": "2026-10-29T13:55:32Z",
+          "supports": "image",
+          "summary": "Source page for the bundled brand logo asset used on this service listing."
+        }
+      ]
+    },
+    {
+      "id": "d24",
+      "service_id": 24,
+      "identified_as": {
+        "brand": "Sadeem Group",
+        "product_type": "TOPUP",
+        "region": "Libya",
+        "official_domain": "sadeamgroup.com"
+      },
+      "evidence": [
+        {
+          "url": "https://www.sadeamgroup.com/en/index.html",
+          "title": "Sadeem Group official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official site of Sadeem Group, a Libyan communications and IT services company."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists Sadeem Group vouchers among Libyan internet prepaid services."
+        },
+        {
+          "url": "https://www.sadeamgroup.com/en/index.html",
+          "title": "Official or source image page (www.sadeamgroup.com)",
+          "retrieved_at": "2026-10-29T13:55:32Z",
+          "supports": "image",
+          "summary": "Source page for the bundled brand logo asset used on this service listing."
+        }
+      ],
+      "open_questions": [
+        "Confirm whether the voucher belongs to Sadeem Group IT or the Sadeem electronics retailer."
+      ]
+    },
+    {
+      "id": "d25",
+      "service_id": 25,
+      "identified_as": {
+        "brand": "Aljuman Aljadeed",
+        "product_type": "TOPUP",
+        "region": "Libya",
+        "official_domain": "aljuman.ly"
+      },
+      "evidence": [
+        {
+          "url": "https://aljuman.ly",
+          "title": "Aljuman Aljadeed official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official site of Aljuman Aljadeed, a Libyan internet provider in Benghazi."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists Aljuman internet vouchers among Libyan prepaid services."
+        },
+        {
+          "url": "https://aljuman.ly/",
+          "title": "Official or source image page (aljuman.ly)",
+          "retrieved_at": "2026-10-29T13:55:32Z",
+          "supports": "image",
+          "summary": "Source page for the bundled brand logo asset used on this service listing."
+        }
+      ]
+    },
+    {
+      "id": "d26",
+      "service_id": 26,
+      "identified_as": {
+        "brand": "Qnet",
+        "product_type": "TOPUP",
+        "region": "Libya",
+        "official_domain": "qnet.ly"
+      },
+      "evidence": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.sadeemTech.Qnet",
+          "title": "Qnet app listing",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "App listing describes Qnet as an internet provider in Benghazi, Libya."
+        },
+        {
+          "url": "https://linkedin.com/company/qnet-isp",
+          "title": "QNET ISP company profile",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Profile identifies QNET as a Libyan ISP founded in 2018."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists Qnet internet vouchers among Libyan prepaid services."
+        }
+      ]
+    },
+    {
+      "id": "d27",
+      "service_id": 27,
+      "identified_as": {
+        "brand": "Libyatech",
+        "product_type": "TOPUP",
+        "region": "Libya",
+        "official_domain": "libyatech.ly"
+      },
+      "evidence": [
+        {
+          "url": "https://www.libyatech.ly",
+          "title": "Libyatech official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official site of Libyatech, a Libyan internet and telecom provider."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists Libyatech internet vouchers among Libyan prepaid services."
+        },
+        {
+          "url": "https://www.libyatech.ly/",
+          "title": "Official or source image page (www.libyatech.ly)",
+          "retrieved_at": "2026-10-29T13:55:32Z",
+          "supports": "image",
+          "summary": "Source page for the bundled brand logo asset used on this service listing."
+        }
+      ]
+    },
+    {
+      "id": "d28",
+      "service_id": 28,
+      "identified_as": {
+        "brand": "Smart Wave",
+        "product_type": "TOPUP",
+        "region": "Libya",
+        "official_domain": "smartwave.ly"
+      },
+      "evidence": [
+        {
+          "url": "https://www.smartwave.ly",
+          "title": "Smart Wave official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official site of Smart Wave, a Libyan home internet provider."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists smart wave internet vouchers among Libyan prepaid services."
+        },
+        {
+          "url": "https://www.smartwave.ly/",
+          "title": "Official or source image page (www.smartwave.ly)",
+          "retrieved_at": "2026-10-29T13:55:32Z",
+          "supports": "image",
+          "summary": "Source page for the bundled brand logo asset used on this service listing."
+        }
+      ]
+    },
+    {
+      "id": "d29",
+      "service_id": 29,
+      "identified_as": {
+        "brand": "Alhadata International",
+        "product_type": "TOPUP",
+        "region": "Libya"
+      },
+      "evidence": [
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists ALHADATA internet vouchers among Libyan prepaid services."
+        },
+        {
+          "url": "https://linkedin.com/in/mohammed-almagrhy-028338131",
+          "title": "Alhadata telecom engineer profile",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Profile identifies Alhadata International for Telecom and IT in Misrata."
+        }
+      ],
+      "open_questions": [
+        "Confirm official website and exact legal name."
+      ]
+    },
+    {
+      "id": "d30",
+      "service_id": 30,
+      "identified_as": {
+        "brand": "DSnet",
+        "product_type": "TOPUP",
+        "region": "Libya",
+        "official_domain": "dsnet.ly"
+      },
+      "evidence": [
+        {
+          "url": "https://dsnet.ly/net/",
+          "title": "DSnet official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official site describes DSnet as a Tripoli-based internet and IT network provider."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists DS net internet vouchers among Libyan prepaid services."
+        },
+        {
+          "url": "https://dsnet.ly/net/",
+          "title": "Official or source image page (dsnet.ly)",
+          "retrieved_at": "2026-10-29T13:55:32Z",
+          "supports": "image",
+          "summary": "Source page for the bundled brand logo asset used on this service listing."
+        }
+      ]
+    },
+    {
+      "id": "d31",
+      "service_id": 31,
+      "identified_as": {
+        "brand": "Ozon Aljadeed",
+        "product_type": "TOPUP",
+        "region": "Libya",
+        "official_domain": "ozon.ly"
+      },
+      "evidence": [
+        {
+          "url": "https://ozon.ly/en/",
+          "title": "Ozon Aljadeed official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official site of Ozon Aljadeed, a Tripoli home internet provider."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists Ozon internet vouchers among Libyan prepaid services."
+        },
+        {
+          "url": "https://ozon.ly/en/",
+          "title": "Official or source image page (ozon.ly)",
+          "retrieved_at": "2026-10-29T13:55:32Z",
+          "supports": "image",
+          "summary": "Source page for the bundled brand logo asset used on this service listing."
+        }
+      ]
+    },
+    {
+      "id": "d32",
+      "service_id": 32,
+      "identified_as": {
+        "brand": "Academia",
+        "product_type": "SUBSCRIPTION",
+        "region": "Libya",
+        "official_domain": "academia.ly"
+      },
+      "evidence": [
+        {
+          "url": "https://academia.ly",
+          "title": "Academia official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official site of the Libyan Academia e-learning platform."
+        },
+        {
+          "url": "https://solve.mit.edu/solutions/87715",
+          "title": "MIT Solve Academia profile",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Profile describes Academia as a Libyan digital education platform."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists Academia platform credit among Libyan prepaid services."
+        }
+      ]
+    },
+    {
+      "id": "d33",
+      "service_id": 33,
+      "identified_as": {
+        "brand": "Alofoq Alraqami",
+        "product_type": "TOPUP",
+        "region": "Libya",
+        "official_domain": "alofoq.ly"
+      },
+      "evidence": [
+        {
+          "url": "https://alofoq.ly/?lang=en",
+          "title": "Alofoq Alraqami official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official site of Alofoq Alraqami, a Libyan internet provider in Benghazi."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists Alofoq internet vouchers among Libyan prepaid services."
+        },
+        {
+          "url": "https://www.alofoq.ly/",
+          "title": "Official or source image page (www.alofoq.ly)",
+          "retrieved_at": "2026-10-29T13:55:32Z",
+          "supports": "image",
+          "summary": "Source page for the bundled brand logo asset used on this service listing."
+        }
+      ]
+    },
+    {
+      "id": "d34",
+      "service_id": 34,
+      "identified_as": {
+        "brand": "Speetar",
+        "product_type": "SUBSCRIPTION",
+        "region": "Libya",
+        "official_domain": "speetar.com"
+      },
+      "evidence": [
+        {
+          "url": "https://speetar.com",
+          "title": "Speetar official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official site of Speetar, a telemedicine platform serving Libya."
+        },
+        {
+          "url": "https://www.undp.org/libya/press-releases/undp-japan-startup-speetar-and-ministry-health-launch-first-telemedicine-initiative-libya",
+          "title": "UNDP Libya telemedicine launch",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "UNDP article describes Speetar's telemedicine service in Libya."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists Speetar service credit among Libyan prepaid services."
+        }
+      ]
+    },
+    {
+      "id": "d35",
+      "service_id": 35,
+      "identified_as": {
+        "brand": "Apple iTunes",
+        "product_type": "GIFT_CARD",
+        "region": "Global",
+        "official_domain": "apple.com"
+      },
+      "evidence": [
+        {
+          "url": "https://www.apple.com/itunes/",
+          "title": "Apple iTunes official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official Apple page for iTunes and its digital store ecosystem."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists iTunes gift cards in multiple regions."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:ITunes_Store_logo.svg",
+          "title": "Wikimedia Commons brand logo file",
+          "retrieved_at": "2026-10-29T13:55:32Z",
+          "supports": "image",
+          "summary": "Source page for the bundled brand logo asset used on this service listing."
+        }
+      ]
+    },
+    {
+      "id": "d36",
+      "service_id": 36,
+      "identified_as": {
+        "brand": "Razer Gold",
+        "product_type": "GAME_CURRENCY",
+        "region": "Global",
+        "official_domain": "gold.razer.com"
+      },
+      "evidence": [
+        {
+          "url": "https://gold.razer.com",
+          "title": "Razer Gold official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official Razer Gold site for the gaming currency wallet."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists Razer Gold vouchers among gaming products."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Razer_wordmark.svg",
+          "title": "Wikimedia Commons brand logo file",
+          "retrieved_at": "2026-10-29T13:55:32Z",
+          "supports": "image",
+          "summary": "Source page for the bundled brand logo asset used on this service listing."
+        }
+      ]
+    },
+    {
+      "id": "d37",
+      "service_id": 37,
+      "identified_as": {
+        "brand": "PUBG Mobile",
+        "product_type": "GAME_CURRENCY",
+        "region": "Global",
+        "official_domain": "pubgmobile.com"
+      },
+      "evidence": [
+        {
+          "url": "https://www.pubgmobile.com",
+          "title": "PUBG Mobile official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official site of PUBG Mobile, the game served by this currency voucher."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists PUBG currency vouchers among gaming products."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:PUBG_Mobile_simple_logo_black.svg",
+          "title": "Wikimedia Commons brand logo file",
+          "retrieved_at": "2026-10-29T13:55:32Z",
+          "supports": "image",
+          "summary": "Source page for the bundled brand logo asset used on this service listing."
+        }
+      ]
+    },
+    {
+      "id": "d38",
+      "service_id": 38,
+      "identified_as": {
+        "brand": "beIN Sports",
+        "product_type": "SUBSCRIPTION",
+        "region": "Middle East & North Africa",
+        "official_domain": "bein.com"
+      },
+      "evidence": [
+        {
+          "url": "https://www.bein.com/en/packages/",
+          "title": "beIN packages official page",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official beIN page describing subscription packages."
+        },
+        {
+          "url": "https://almajd.ly/bein.html",
+          "title": "Libyan beIN subscription dealer",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Libyan authorized dealer page confirms beIN subscriptions are sold in Libya."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:BeIN_Sports_logo_(horizontal_version).svg",
+          "title": "Wikimedia Commons brand logo file",
+          "retrieved_at": "2026-10-29T13:55:32Z",
+          "supports": "image",
+          "summary": "Source page for the bundled brand logo asset used on this service listing."
+        }
+      ]
+    },
+    {
+      "id": "d39",
+      "service_id": 39,
+      "identified_as": {
+        "brand": "Xbox",
+        "product_type": "GIFT_CARD",
+        "region": "Global",
+        "official_domain": "xbox.com"
+      },
+      "evidence": [
+        {
+          "url": "https://www.xbox.com",
+          "title": "Xbox official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official Xbox site for console gaming and digital store credit."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists Xbox store vouchers among gaming products."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Xbox_logo_(2019).svg",
+          "title": "Wikimedia Commons brand logo file",
+          "retrieved_at": "2026-10-29T13:55:32Z",
+          "supports": "image",
+          "summary": "Source page for the bundled brand logo asset used on this service listing."
+        }
+      ]
+    },
+    {
+      "id": "d40",
+      "service_id": 40,
+      "identified_as": {
+        "brand": "PlayStation Network",
+        "product_type": "GIFT_CARD",
+        "region": "Global",
+        "official_domain": "playstation.com"
+      },
+      "evidence": [
+        {
+          "url": "https://www.playstation.com",
+          "title": "PlayStation official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official PlayStation site for the PlayStation Network ecosystem."
+        },
+        {
+          "url": "https://atib.ly/kuroot",
+          "title": "Public prepaid voucher catalog",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "category",
+          "summary": "Lists PSN vouchers among gaming products."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:PlayStation_Network_logo_(2015).png",
+          "title": "Wikimedia Commons brand logo file",
+          "retrieved_at": "2026-10-29T13:55:32Z",
+          "supports": "image",
+          "summary": "Source page for the bundled brand logo asset used on this service listing."
+        }
+      ]
+    },
+    {
+      "id": "d41",
+      "service_id": 41,
+      "identified_as": {
+        "brand": "Airtel",
+        "product_type": "TOPUP",
+        "region": "Africa",
+        "official_domain": "airtel.com"
+      },
+      "evidence": [
+        {
+          "url": "https://www.airtel.com",
+          "title": "Airtel official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official Airtel corporate site; exact voucher product and region need confirmation."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Bharti_Airtel_logo.svg",
+          "title": "Wikimedia Commons brand logo file",
+          "retrieved_at": "2026-10-29T13:55:32Z",
+          "supports": "image",
+          "summary": "Source page for the bundled brand logo asset used on this service listing."
+        }
+      ],
+      "open_questions": [
+        "Confirm which Airtel operating company and region the voucher targets.",
+        "Confirm whether the product is mobile top-up or another voucher."
+      ]
+    },
+    {
+      "id": "d42",
+      "service_id": 42,
+      "identified_as": {
+        "brand": "Visa",
+        "product_type": "OTHER",
+        "region": "Middle East",
+        "official_domain": "visa.com"
+      },
+      "evidence": [
+        {
+          "url": "https://www.visa.com",
+          "title": "Visa official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Official Visa site; exact Middle East voucher product needs confirmation."
+        },
+        {
+          "url": "https://ae.visamiddleeast.com/ar_AE",
+          "title": "Visa Middle East official site",
+          "retrieved_at": "2026-10-29T12:00:00.000Z",
+          "supports": "identity",
+          "summary": "Regional Visa site confirms the Middle East brand presence."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Visa_Inc._logo_(2021–present).svg",
+          "title": "Wikimedia Commons brand logo file",
+          "retrieved_at": "2026-10-29T13:55:32Z",
+          "supports": "image",
+          "summary": "Source page for the bundled brand logo asset used on this service listing."
+        }
+      ],
+      "open_questions": [
+        "Confirm whether this is a prepaid card, gift card, or another voucher product.",
+        "Identify issuing bank and redemption terms."
+      ]
+    }
+  ],
+  "self_check": {
+    "services_in_snapshot": 42,
+    "placed": 38,
+    "excluded": 0,
+    "needs_human": 4,
+    "listings": 59,
+    "placements": 48,
+    "assets": 40,
+    "max_depth": 2
+  }
+}

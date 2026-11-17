@@ -1,0 +1,986 @@
+{
+  "tree": [
+    {
+      "ref": "curated",
+      "kind": "SUB_CATEGORY",
+      "managed": true,
+      "name_ar": "مختارة",
+      "name_en": "Curated",
+      "parent_ref": null,
+      "priority_index": 10
+    },
+    {
+      "ref": "mobile",
+      "kind": "SUB_CATEGORY",
+      "managed": true,
+      "name_ar": "تعبئة الرصيد",
+      "name_en": "Mobile Top-up",
+      "parent_ref": null,
+      "priority_index": 20
+    },
+    {
+      "ref": "internet",
+      "kind": "SUB_CATEGORY",
+      "managed": true,
+      "name_ar": "الإنترنت",
+      "name_en": "Internet",
+      "parent_ref": null,
+      "priority_index": 30
+    },
+    {
+      "ref": "gaming",
+      "kind": "SUB_CATEGORY",
+      "managed": true,
+      "name_ar": "الألعاب",
+      "name_en": "Gaming",
+      "parent_ref": null,
+      "priority_index": 40
+    },
+    {
+      "ref": "digital",
+      "kind": "SUB_CATEGORY",
+      "managed": true,
+      "name_ar": "الخدمات الرقمية",
+      "name_en": "Digital Services",
+      "parent_ref": null,
+      "priority_index": 50
+    },
+    {
+      "ref": "giftcards",
+      "kind": "SUB_CATEGORY",
+      "managed": true,
+      "name_ar": "بطاقات الهدايا",
+      "name_en": "Gift Cards",
+      "parent_ref": null,
+      "priority_index": 60
+    },
+    {
+      "ref": "curated.libyana",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "ليبيانا",
+      "name_en": "Libyana",
+      "parent_ref": "curated",
+      "service_id": 1,
+      "priority_index": 10
+    },
+    {
+      "ref": "curated.almadar",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "المدار الجديد",
+      "name_en": "Almadar",
+      "parent_ref": "curated",
+      "service_id": 2,
+      "priority_index": 20
+    },
+    {
+      "ref": "curated.giga",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "جيجا",
+      "name_en": "Giga",
+      "parent_ref": "curated",
+      "service_id": 5,
+      "priority_index": 30
+    },
+    {
+      "ref": "curated.bein-sport",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "بي إن سبورت",
+      "name_en": "beIN Sport",
+      "parent_ref": "curated",
+      "service_id": 38,
+      "priority_index": 40
+    },
+    {
+      "ref": "curated.pubg",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "ببجي موبايل",
+      "name_en": "PUBG",
+      "parent_ref": "curated",
+      "service_id": 37,
+      "priority_index": 50
+    },
+    {
+      "ref": "curated.itunes",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "آي تيونز",
+      "name_en": "ITunes",
+      "parent_ref": "curated",
+      "service_id": 35,
+      "priority_index": 60
+    },
+    {
+      "ref": "curated.academia",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "أكاديميا",
+      "name_en": "Academia",
+      "parent_ref": "curated",
+      "service_id": 32,
+      "priority_index": 70
+    },
+    {
+      "ref": "mobile.almadar",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "المدار الجديد",
+      "name_en": "Almadar",
+      "parent_ref": "mobile",
+      "service_id": 2,
+      "priority_index": 0
+    },
+    {
+      "ref": "mobile.libyana",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "ليبيانا",
+      "name_en": "Libyana",
+      "parent_ref": "mobile",
+      "service_id": 1,
+      "priority_index": 1
+    },
+    {
+      "ref": "internet.home",
+      "kind": "SUB_CATEGORY",
+      "managed": true,
+      "name_ar": "إنترنت المنازل",
+      "name_en": "Home Internet",
+      "parent_ref": "internet",
+      "priority_index": 10
+    },
+    {
+      "ref": "internet.business",
+      "kind": "SUB_CATEGORY",
+      "managed": true,
+      "name_ar": "الأعمال والاستضافة",
+      "name_en": "Business & Hosting",
+      "parent_ref": "internet",
+      "priority_index": 20
+    },
+    {
+      "ref": "internet.hotspot",
+      "kind": "SUB_CATEGORY",
+      "managed": true,
+      "name_ar": "النقاط الساخنة",
+      "name_en": "Hotspots & Public Wi-Fi",
+      "parent_ref": "internet",
+      "priority_index": 30
+    },
+    {
+      "ref": "gaming.console",
+      "kind": "SUB_CATEGORY",
+      "managed": true,
+      "name_ar": "محافظ الأجهزة",
+      "name_en": "Console Wallets",
+      "parent_ref": "gaming",
+      "priority_index": 10
+    },
+    {
+      "ref": "gaming.currency",
+      "kind": "SUB_CATEGORY",
+      "managed": true,
+      "name_ar": "عملات الألعاب",
+      "name_en": "Game Currency",
+      "parent_ref": "gaming",
+      "priority_index": 20
+    },
+    {
+      "ref": "digital.bein-sport",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "بي إن سبورت",
+      "name_en": "beIN Sport",
+      "parent_ref": "digital",
+      "service_id": 38,
+      "priority_index": 10
+    },
+    {
+      "ref": "digital.academia",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "أكاديميا",
+      "name_en": "Academia",
+      "parent_ref": "digital",
+      "service_id": 32,
+      "priority_index": 20
+    },
+    {
+      "ref": "digital.ishrahli",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "اشرحلي",
+      "name_en": "Ishrahli",
+      "parent_ref": "digital",
+      "service_id": 23,
+      "priority_index": 30
+    },
+    {
+      "ref": "digital.speetar",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "سبيتار",
+      "name_en": "Speetar",
+      "parent_ref": "digital",
+      "service_id": 34,
+      "priority_index": 40
+    },
+    {
+      "ref": "giftcards.itunes",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "آي تيونز",
+      "name_en": "ITunes",
+      "parent_ref": "giftcards",
+      "service_id": 35,
+      "priority_index": 10
+    },
+    {
+      "ref": "giftcards.psn",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "بلايستيشن",
+      "name_en": "PSN",
+      "parent_ref": "giftcards",
+      "service_id": 40,
+      "priority_index": 20
+    },
+    {
+      "ref": "giftcards.xbox",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "إكس بوكس",
+      "name_en": "XBOX",
+      "parent_ref": "giftcards",
+      "service_id": 39,
+      "priority_index": 30
+    },
+    {
+      "ref": "internet.home.smart-net",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "الشبكة الذكية",
+      "name_en": "Smart Net",
+      "parent_ref": "internet.home",
+      "service_id": 10,
+      "priority_index": 10
+    },
+    {
+      "ref": "internet.home.dlconet",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "دلكونت",
+      "name_en": "Dlconet",
+      "parent_ref": "internet.home",
+      "service_id": 8,
+      "priority_index": 20
+    },
+    {
+      "ref": "internet.home.riyada",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "الريادة",
+      "name_en": "Riyada",
+      "parent_ref": "internet.home",
+      "service_id": 6,
+      "priority_index": 30
+    },
+    {
+      "ref": "internet.home.digital-pulse",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "النبضة الرقمية",
+      "name_en": "Digital Pulse",
+      "parent_ref": "internet.home",
+      "service_id": 9,
+      "priority_index": 40
+    },
+    {
+      "ref": "internet.home.qurina",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "قورينا نت",
+      "name_en": "Qurina",
+      "parent_ref": "internet.home",
+      "service_id": 14,
+      "priority_index": 50
+    },
+    {
+      "ref": "internet.home.oxygen",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "أكسجين",
+      "name_en": "Oxygen",
+      "parent_ref": "internet.home",
+      "service_id": 21,
+      "priority_index": 60
+    },
+    {
+      "ref": "internet.home.sky-net",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "سكاي نت",
+      "name_en": "Sky Net",
+      "parent_ref": "internet.home",
+      "service_id": 12,
+      "priority_index": 70
+    },
+    {
+      "ref": "internet.home.zajil",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "زاجل ليبيا",
+      "name_en": "Zajil Libya",
+      "parent_ref": "internet.home",
+      "service_id": 11,
+      "priority_index": 80
+    },
+    {
+      "ref": "internet.home.smart-wave",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "الموجة الذكية",
+      "name_en": "smart wave",
+      "parent_ref": "internet.home",
+      "service_id": 28,
+      "priority_index": 90
+    },
+    {
+      "ref": "internet.home.ds-net",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "دي إس نت",
+      "name_en": "DS net",
+      "parent_ref": "internet.home",
+      "service_id": 30,
+      "priority_index": 100
+    },
+    {
+      "ref": "internet.home.alofoq",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "الأفق الرقمي",
+      "name_en": "Alofoq",
+      "parent_ref": "internet.home",
+      "service_id": 33,
+      "priority_index": 110
+    },
+    {
+      "ref": "internet.home.alhadata",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "الحداثة الدولية",
+      "name_en": "ALHADATA",
+      "parent_ref": "internet.home",
+      "service_id": 29,
+      "priority_index": 120
+    },
+    {
+      "ref": "internet.home.alborj-recharge",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "البرج للاتصالات - تعبئة",
+      "name_en": "Alborj Telecom - Recharge",
+      "parent_ref": "internet.home",
+      "service_id": 18,
+      "priority_index": 130
+    },
+    {
+      "ref": "internet.home.libya-soft-home",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "ليبيا سوفت هوم",
+      "name_en": "Libya Soft Home",
+      "parent_ref": "internet.home",
+      "service_id": 15,
+      "priority_index": 140
+    },
+    {
+      "ref": "internet.home.qnet",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "كيو نت",
+      "name_en": "Qnet",
+      "parent_ref": "internet.home",
+      "service_id": 26,
+      "priority_index": 150
+    },
+    {
+      "ref": "gaming.console.psn",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "بلايستيشن",
+      "name_en": "PSN",
+      "parent_ref": "gaming.console",
+      "service_id": 40,
+      "priority_index": 10
+    },
+    {
+      "ref": "gaming.console.xbox",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "إكس بوكس",
+      "name_en": "XBOX",
+      "parent_ref": "gaming.console",
+      "service_id": 39,
+      "priority_index": 20
+    },
+    {
+      "ref": "internet.business.ltt",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "ليبيا للاتصالات والتقنية",
+      "name_en": "LTT",
+      "parent_ref": "internet.business",
+      "service_id": 3,
+      "priority_index": 10
+    },
+    {
+      "ref": "internet.business.giga",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "جيجا",
+      "name_en": "Giga",
+      "parent_ref": "internet.business",
+      "service_id": 5,
+      "priority_index": 20
+    },
+    {
+      "ref": "internet.business.connect",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "كونكت",
+      "name_en": "Connect",
+      "parent_ref": "internet.business",
+      "service_id": 13,
+      "priority_index": 30
+    },
+    {
+      "ref": "internet.business.libyatech",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "ليبيا تك",
+      "name_en": "Libyatech",
+      "parent_ref": "internet.business",
+      "service_id": 27,
+      "priority_index": 40
+    },
+    {
+      "ref": "internet.business.aljuman",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "الجمان الجديد",
+      "name_en": "Aljuman",
+      "parent_ref": "internet.business",
+      "service_id": 25,
+      "priority_index": 50
+    },
+    {
+      "ref": "internet.business.alkafaa",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "الكفاءة المتقدمة",
+      "name_en": "Alkafaa",
+      "parent_ref": "internet.business",
+      "service_id": 7,
+      "priority_index": 60
+    },
+    {
+      "ref": "internet.business.hatif",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "هاتف ليبيا",
+      "name_en": "Hatif Libya",
+      "parent_ref": "internet.business",
+      "service_id": 4,
+      "priority_index": 70
+    },
+    {
+      "ref": "internet.business.ozon",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "أوزون الجديد",
+      "name_en": "Ozon",
+      "parent_ref": "internet.business",
+      "service_id": 31,
+      "priority_index": 80
+    },
+    {
+      "ref": "internet.business.alborj-subscription",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "البرج للاتصالات - اشتراك",
+      "name_en": "Alborj Telecom - Subscription",
+      "parent_ref": "internet.business",
+      "service_id": 17,
+      "priority_index": 90
+    },
+    {
+      "ref": "internet.business.libyan-spider",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "ليبيا سبايدر",
+      "name_en": "Libyan Spider",
+      "parent_ref": "internet.business",
+      "service_id": 22,
+      "priority_index": 100
+    },
+    {
+      "ref": "internet.business.sadeem",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "السديم",
+      "name_en": "Sadeem",
+      "parent_ref": "internet.business",
+      "service_id": 24,
+      "priority_index": 110
+    },
+    {
+      "ref": "gaming.currency.pubg",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "ببجي موبايل",
+      "name_en": "PUBG",
+      "parent_ref": "gaming.currency",
+      "service_id": 37,
+      "priority_index": 10
+    },
+    {
+      "ref": "gaming.currency.razer-gold",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "ريزر جولد",
+      "name_en": "RAZER GOLD",
+      "parent_ref": "gaming.currency",
+      "service_id": 36,
+      "priority_index": 20
+    },
+    {
+      "ref": "internet.hotspot.libya-soft-hotspot",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "ليبيا سوفت هوت سبوت",
+      "name_en": "Libya Soft HotSpot",
+      "parent_ref": "internet.hotspot",
+      "service_id": 16,
+      "priority_index": 10
+    },
+    {
+      "ref": "internet.hotspot.dlconet",
+      "kind": "SERVICE",
+      "managed": true,
+      "name_ar": "دلكونت",
+      "name_en": "Dlconet",
+      "parent_ref": "internet.hotspot",
+      "service_id": 8,
+      "priority_index": 20
+    }
+  ],
+  "assets": [],
+  "intent": "FULL_BUILD",
+  "limits": {
+    "max_depth": 6,
+    "max_name_len": 40,
+    "max_children_warn": 15,
+    "recommended_depth": 3
+  },
+  "market": {
+    "country": "LY",
+    "currency": "LYD",
+    "languages": [
+      "ar",
+      "en"
+    ]
+  },
+  "services": [
+    {
+      "name": "Academia",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "curated.academia",
+        "digital.academia"
+      ],
+      "service_id": 32
+    },
+    {
+      "name": "Airtel",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [],
+      "service_id": 41
+    },
+    {
+      "name": "Alborj Telecom - Recharge",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "internet.home.alborj-recharge"
+      ],
+      "service_id": 18
+    },
+    {
+      "name": "Alborj Telecom - Subscription",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "internet.business.alborj-subscription"
+      ],
+      "service_id": 17
+    },
+    {
+      "name": "ALHADATA",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "internet.home.alhadata"
+      ],
+      "service_id": 29
+    },
+    {
+      "name": "Aljuman",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "internet.business.aljuman"
+      ],
+      "service_id": 25
+    },
+    {
+      "name": "Alkafaa",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "internet.business.alkafaa"
+      ],
+      "service_id": 7
+    },
+    {
+      "name": "Almadar",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "curated.almadar",
+        "mobile.almadar"
+      ],
+      "service_id": 2
+    },
+    {
+      "name": "Alofoq",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "internet.home.alofoq"
+      ],
+      "service_id": 33
+    },
+    {
+      "name": "beIN Sport",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "curated.bein-sport",
+        "digital.bein-sport"
+      ],
+      "service_id": 38
+    },
+    {
+      "name": "Connect",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "internet.business.connect"
+      ],
+      "service_id": 13
+    },
+    {
+      "name": "Digital Pulse",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "internet.home.digital-pulse"
+      ],
+      "service_id": 9
+    },
+    {
+      "name": "Dlconet",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "internet.home.dlconet",
+        "internet.hotspot.dlconet"
+      ],
+      "service_id": 8
+    },
+    {
+      "name": "DS net",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "internet.home.ds-net"
+      ],
+      "service_id": 30
+    },
+    {
+      "name": "Giga",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "curated.giga",
+        "internet.business.giga"
+      ],
+      "service_id": 5
+    },
+    {
+      "name": "Hatif Libya",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "internet.business.hatif"
+      ],
+      "service_id": 4
+    },
+    {
+      "name": "Ishrahli",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "digital.ishrahli"
+      ],
+      "service_id": 23
+    },
+    {
+      "name": "ITunes",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "curated.itunes",
+        "giftcards.itunes"
+      ],
+      "service_id": 35
+    },
+    {
+      "name": "Libya Soft Home",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "internet.home.libya-soft-home"
+      ],
+      "service_id": 15
+    },
+    {
+      "name": "Libya Soft HotSpot",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "internet.hotspot.libya-soft-hotspot"
+      ],
+      "service_id": 16
+    },
+    {
+      "name": "Libyan Spider",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "internet.business.libyan-spider"
+      ],
+      "service_id": 22
+    },
+    {
+      "name": "Libyana",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "curated.libyana",
+        "mobile.libyana"
+      ],
+      "service_id": 1
+    },
+    {
+      "name": "Libyatech",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "internet.business.libyatech"
+      ],
+      "service_id": 27
+    },
+    {
+      "name": "LTT",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "internet.business.ltt"
+      ],
+      "service_id": 3
+    },
+    {
+      "name": "Open Market",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [],
+      "service_id": 20
+    },
+    {
+      "name": "Oxygen",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "internet.home.oxygen"
+      ],
+      "service_id": 21
+    },
+    {
+      "name": "Ozon",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "internet.business.ozon"
+      ],
+      "service_id": 31
+    },
+    {
+      "name": "PSN",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "giftcards.psn",
+        "gaming.console.psn"
+      ],
+      "service_id": 40
+    },
+    {
+      "name": "PUBG",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "curated.pubg",
+        "gaming.currency.pubg"
+      ],
+      "service_id": 37
+    },
+    {
+      "name": "Qnet",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "internet.home.qnet"
+      ],
+      "service_id": 26
+    },
+    {
+      "name": "Qurina",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "internet.home.qurina"
+      ],
+      "service_id": 14
+    },
+    {
+      "name": "RAZER GOLD",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "gaming.currency.razer-gold"
+      ],
+      "service_id": 36
+    },
+    {
+      "name": "Riyada",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "internet.home.riyada"
+      ],
+      "service_id": 6
+    },
+    {
+      "name": "Sadeem",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "internet.business.sadeem"
+      ],
+      "service_id": 24
+    },
+    {
+      "name": "Sky Net",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "internet.home.sky-net"
+      ],
+      "service_id": 12
+    },
+    {
+      "name": "Smart 300",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [],
+      "service_id": 19
+    },
+    {
+      "name": "Smart Net",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "internet.home.smart-net"
+      ],
+      "service_id": 10
+    },
+    {
+      "name": "smart wave",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "internet.home.smart-wave"
+      ],
+      "service_id": 28
+    },
+    {
+      "name": "Speetar",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "digital.speetar"
+      ],
+      "service_id": 34
+    },
+    {
+      "name": "Visa Middle East",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [],
+      "service_id": 42
+    },
+    {
+      "name": "XBOX",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "giftcards.xbox",
+        "gaming.console.xbox"
+      ],
+      "service_id": 39
+    },
+    {
+      "name": "Zajil Libya",
+      "type": "SECRET",
+      "blocked": false,
+      "placements": [
+        "internet.home.zajil"
+      ],
+      "service_id": 11
+    }
+  ],
+  "redaction": "MINIMAL",
+  "snapshot_id": "snap_20261029T133909Z_7087d4",
+  "content_hash": "2a7dd71eb603e9fdc56beec6e24c4ccc1a378ebd19135ad47d14cb88e262692d",
+  "generated_at": "2026-10-29T13:39:09.455Z",
+  "environment_id": "default"
+}
